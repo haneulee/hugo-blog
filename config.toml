@@ -18,7 +18,7 @@ defaultContentLanguage = "en-us"
 title = "Haneul Devlog"
 theme = "hugo-tranquilpeak-theme"
 disqusShortname = "haneulee-github-io"
-# googleAnalytics = "UA-123-45"
+googleAnalytics = "272245975"
 paginate = 7
 canonifyurls = true
 
