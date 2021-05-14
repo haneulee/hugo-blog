@@ -34,8 +34,3 @@ fi
 git commit -m "$msg"
 
 git push origin master
-
-submodule.public.active=true
-submodule.public.url=https://github.com/haneulee/haneulee.github.io.git
-submodule.themes/hugo-tranquilpeak-theme.active=true
-submodule.themes/hugo-tranquilpeak-theme.url=https://github.com/haneulee/hugo-tranquilpeak-theme.git
