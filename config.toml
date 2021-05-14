@@ -18,9 +18,10 @@ defaultContentLanguage = "en-us"
 title = "Haneul Devlog"
 theme = "hugo-tranquilpeak-theme"
 disqusShortname = "haneulee-github-io"
-googleAnalytics = "272245975"
+googleAnalytics = "G-BHPHWPTLMZ"
 paginate = 7
 canonifyurls = true
+buymeacoffee = true
 
 [permalinks]
   post = "/:year/:month/:slug/"
@@ -32,14 +33,14 @@ canonifyurls = true
 
 [author]
   name = "Haneul Lee"
-  bio = "**COOL**"
+  bio = "Devlog"
   job = "Front-end Developer"
   location = "Korea"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
   gravatarEmail = "lovesky4294@gmail.com"
   # Your profile picture
   # Overwritten by your gravatar image if `author.gravatarEmail` is filled
-  picture = "images/profile.jpeg"
+  picture = "img/profile.jpeg"
   # Your Twitter username without the @. E.g : thibaudlepretre
   # twitter = "thibaudlepretre"
   # Your google plus profile id. E.g : +ThibaudLepretre or 114625208755123718311
@@ -82,7 +83,7 @@ canonifyurls = true
   identifier = "github"
   name = "GitHub"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-github\"></i>"
-  url = "https://github.com/kakawait"
+  url = "https://github.com/haneulee"
 
   
 
@@ -107,7 +108,7 @@ canonifyurls = true
   # If false it will flat categories.
   hierarchicalCategories = true
 
-  description = "Hugo tranquilpeak theme demo"
+  description = "devlog"
 
   # Customization
   # Define the behavior of the sidebar
@@ -130,7 +131,7 @@ canonifyurls = true
   # Current image is on AWS S3 and delivered by AWS CloudFront.
   # Otherwise put your image, for example `cover.jpg` in folder `static/images/`,
   # and use relative url : `images/cover.jpg`
-  coverImage = "images/cover.jpg"
+  coverImage = "img/black-cover.jpg"
 
   # Display an image gallery at the end of a post which have photos variables (false: disabled, true: enabled)
   imageGallery = true
@@ -147,7 +148,7 @@ canonifyurls = true
   autoThumbnailImage = true
 
   # Your favicon path, default is "/favicon.png"
-  favicon = "images/favicon.png"
+  favicon = "img/favicon.ico"
 
   # Header configuration
   # The link at the right of the header is customizable
