@@ -1,15 +1,14 @@
 ---
-title: "{{ replace .TranslationBaseName "-" " " | title }}"
+title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-categories:
-- category
-- subcategory
-tags:
-- tag1
-- tag2
-keywords:
-- tech
-#thumbnailImage: //example.com/image.jpg
+categories: ["development"]
+tags: ["development", "front-end"]
+keywords: ["development", "front-end"]
+cover: ""
+draft: false
+thumbnailImagePosition: left
+thumbnailImage: ""
+# coverImage: //d1u9biwaxjngwg.cloudfront.net/cover-image-showcase/city.jpg
+metaAlignment: center
+coverMeta: out
 ---
-
-<!--more-->
