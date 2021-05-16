@@ -7,7 +7,7 @@ metaAlignment: center
 coverMeta: out
 date: 2021-05-11
 categories:
-- Developement
+- development
 - Git
 tags:
 - git 

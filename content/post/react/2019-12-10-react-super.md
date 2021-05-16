@@ -4,8 +4,8 @@ title: "Why Do We Write super(props)?"
 date: '2018-12-10'
 categories: React study
 spoiler: There’s a twist at the end.
-categories: [Development, React]
-tags: [javascript, hooks, super]
+categories: [development, React]
+tags: [javascript, hooks, super, 리액트, 훅스]
 
 ---
 
@@ -18,7 +18,10 @@ tags: [javascript, hooks, super]
 
 웃기게도 나는 클래스 컴포넌트에 대한 재미있는 것들을 설명하면서 이 블로그를 시작하고 싶다. 
 
+
+{{< alert info >}}
 **이런 것들은(클래스 컴포넌트) 리액트를 생산적으로 사용하는데 별로 중요하지 않다. 그러나 이것들이 어떻게 작동하는지 깊게 알고 싶다면 아마 놀라울 것이다.** 
+{{< /alert >}}
 
 첫번째,
 

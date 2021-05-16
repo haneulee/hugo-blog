@@ -2,9 +2,11 @@
 layout: post
 title: "how to handle React state array"
 date: 2019-11-10 00:03:00 +0900
-categories: [Development, React]
-tags: [javascript, react, state, array]
+categories: [development, React]
+tags: [javascript, react, state, array, 리액트]
 ---
+
+<!--toc-->
 
 # state 안에 있는 배열에 변화를 주는 방법
 

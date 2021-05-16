@@ -2,7 +2,7 @@
 layout: post
 title: "Javascript use strict"
 date: 2018-09-17 17:03:00 +0900
-categories: [Development, Javscript]
+categories: [development, javascript]
 tags: [javascript, use, strict]
 ---
 

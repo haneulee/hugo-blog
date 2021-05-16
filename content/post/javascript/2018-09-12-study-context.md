@@ -2,8 +2,8 @@
 layout: post
 title: "Javascript Context"
 date: 2018-09-12 17:56:52 +0900
-categories: [Development, Javscript]
-tags: [javascript, context]
+categories: [development, javascript]
+tags: [javascript, context, 컨텍스트]
 ---
 
 자바스크립트 실행 컨텍스트

@@ -1,6 +1,6 @@
 [submodule "themes/tranquilpeak"]
 	path = themes/tranquilpeak
-	url = https://github.com/kakawait/hugo-tranquilpeak-theme.git
+	url = https://github.com/haneulee/hugo-tranquilpeak-theme.git
 	branch = master
 [submodule "public"]
 	path = public

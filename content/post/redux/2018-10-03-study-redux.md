@@ -2,28 +2,29 @@
 layout: post
 title: "Redux"
 date: 2018-10-03 11:03:00 +0900
-categories: [Development, Redux]
-tags: [javascript, react, Redux]
+categories: [development, Redux]
+tags: [javascript, react, Redux, 리덕스]
 ---
+<!--toc-->
 
 # Redux 리덕스
 
 : 리액트를 위한 스테이트 매니지먼트 툴 (복잡한 앱에서 효율적, 단순한 앱에서 필요없음)
 
-### Why do we need it? 왜 필요한가?
+## Why do we need it? 왜 필요한가?
 
 1. Components have local state, but apps have global state.
 2. Sometimes state need to be shared.
 3. We need to save the shared state somewhere.
 4. Redux == state container
 
-### Redux is a gloabl state container
+## Redux is a gloabl state container
 
 1. Ther Redux Store is like a box
 2. We go and grab what we need for the container
 3. For example, from <Navigation/> we only grab the username
 
-### Stuff to remember
+## Stuff to remember
 
 1. The whole state of your app is stored in an object(store)
 
@@ -37,7 +38,7 @@ tags: [javascript, react, Redux]
 
 - reducer 는 사용자를 대신해 오브젝트를 변경함
 
-### nomad coders 강의 참고
+## nomad coders 강의 참고
 
 ![1](/assets/redux/1.png)  
 ![2](/assets/redux/2.png)  

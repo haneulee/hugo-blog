@@ -1,9 +1,14 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-categories: ["development"]
-tags: ["development", "front-end"]
-keywords: ["development", "front-end"]
+categories: 
+- development
+tags: 
+- development
+- front-end
+keywords: 
+- development
+- front-end
 cover: ""
 draft: false
 thumbnailImagePosition: left
