@@ -17,7 +17,7 @@ keywords:
 cover: ""
 draft: false
 thumbnailImagePosition: left
-thumbnailImage: /img/post/hugo/github-site.png
+thumbnailImage: https://cdn.jsdelivr.net/gh/haneulee/haneulee.github.io/img/post/hugo/github-site.png
 # coverImage: /img/post/hugo/github-repo.png
 metaAlignment: center
 coverMeta: out
@@ -181,12 +181,12 @@ git push origin master
 블로그 호스팅 레파지토리에서는 setting > pages 에 들어가서
 branch를 master로 설정하고 save를 해야 한다. 
 
-![](/img/post/hugo/github-repo.png)
+![](https://cdn.jsdelivr.net/gh/haneulee/haneulee.github.io/img/post/hugo/github-repo.png)
 
 오류 없이 배포되면 
 [사용자 아이디].github.io 주소로 나의 블로그를 확인할 수 있다.
 
-![](/img/post/hugo/github-site.png)
+![](https://cdn.jsdelivr.net/gh/haneulee/haneulee.github.io/img/post/hugo/github-site.png)
 
 ## 다른 환경에서 다운로드 
 
