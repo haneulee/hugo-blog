@@ -18,7 +18,7 @@ keywords:
 cover: ""
 draft: false
 thumbnailImagePosition: left
-thumbnailImage: ""
+thumbnailImage: "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcvwEfZ%2FbtqIFw2Kt69%2FZrqh8pmu2fyrYUMWykbLwk%2Fimg.png"
 # coverImage: //d1u9biwaxjngwg.cloudfront.net/cover-image-showcase/city.jpg
 metaAlignment: center
 coverMeta: out

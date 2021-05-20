@@ -31,6 +31,8 @@ metaAlignment: center
 coverMeta: out
 ---
 
+<!--toc-->
+
 <p>
   <br/>
 </p>
@@ -118,6 +120,9 @@ coverMeta: out
 </p>
 <h1>karma</h1>
 <hr/>
+
+![](https://cdn.jsdelivr.net/gh/haneulee/haneulee.github.io/img/post/unittest/img-2.png)
+
 <ul>
   <li>브라우저 런처를 이용하여 다양한 브라우저를 띄우고, 그 위에서 테스트 코드를 실행한다. (런처 설치 필요)</li>
   <li>웹 소켓을 통한 연결 : 카르마는 웹 소켓을 이용해 브라우저가 카르마 웹서버와 커넥션을 만든다. → 파일 변화 자동 감지</li>
@@ -125,9 +130,6 @@ coverMeta: out
   <li>jasmine이나 mocha같은 테스트 프레임워크는 node 기반의 러너만 제공하기 때문에 브라우저 환경에서 도는 러너가 필요</li>
   <li>카르마 서버 ↔ 클라이언트 매니저 ↔ iframe ↔ 테스트 프레임워크 어댑터 ↔ 테스트 프레임워크<br/>
     <ul>
-      <li>
-        ![](https://cdn.jsdelivr.net/gh/haneulee/haneulee.github.io/img/post/unittest/img-2.png)
-      </li>
       <li>성공 실패 여부는 이벤트를 발생시킴으로써 클라이언트 페이지로 postMessage 를 통해 전달한다.</li>
       <li>클라이언트 페이지는 다시 웹 소켓을 통해 카르마 서버에 결과를 전달한다.</li>
     </ul>

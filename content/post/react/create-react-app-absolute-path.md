@@ -17,7 +17,6 @@ keywords:
 - 타입스크립트
 cover: ""
 draft: false
-thumbnailImagePosition: left
 thumbnailImage: ""
 # coverImage: //d1u9biwaxjngwg.cloudfront.net/cover-image-showcase/city.jpg
 metaAlignment: center

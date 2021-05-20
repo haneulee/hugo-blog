@@ -20,7 +20,6 @@ keywords:
 - front-end
 cover: ""
 draft: false
-thumbnailImagePosition: left
 thumbnailImage: ""
 # coverImage: //d1u9biwaxjngwg.cloudfront.net/cover-image-showcase/city.jpg
 metaAlignment: center
