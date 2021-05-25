@@ -17,7 +17,7 @@ keywords:
 cover: ""
 draft: false
 thumbnailImagePosition: left
-thumbnailImage: ""
+thumbnailImage: "https://cdn.jsdelivr.net/gh/haneulee/haneulee.github.io/img/post/git/img-2.png"
 # coverImage: //d1u9biwaxjngwg.cloudfront.net/cover-image-showcase/city.jpg
 metaAlignment: center
 coverMeta: out
