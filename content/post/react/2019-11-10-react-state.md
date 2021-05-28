@@ -200,3 +200,6 @@ let changed = [ ...array.slice(0,2), '수정', ...array.slice(3,array.length-1)]
 ```
 - changed 배열을 출력해보면 [1, 2, "수정", 4, 5, 6] 로 출력된다.
 
+
+
+{{< adsense >}}

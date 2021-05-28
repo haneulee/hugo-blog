@@ -60,3 +60,7 @@ dns 검증을 선택하고, 
 https://로도 접속이 가능하게 된다.
 
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbFYnBt%2FbtqBWB4ZAMi%2F4CNXT8e1pcmH1Zue2UL7Pk%2Fimg.png)
+
+
+
+{{< adsense >}}

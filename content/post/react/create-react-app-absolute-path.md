@@ -130,3 +130,6 @@ import { containAlphabet } from '@utils/string-util';
 import { useLocalization } from '@locales';
 
 ```
+
+
+{{< adsense >}}

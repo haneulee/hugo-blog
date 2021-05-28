@@ -73,3 +73,6 @@ ruby -run -ehttpd . -p9001
 
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fnmeyh%2FbtqUk0fdHQE%2FGZ0NYKckk3xKe8yakfKwZk%2Fimg.png)
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcysiXz%2FbtqUl9XiOJr%2FOK52muaNh5GmEIVvkWHgOk%2Fimg.png)
+
+
+{{< adsense >}}

@@ -44,3 +44,6 @@ ClientAliveCountMax 횟수 (default 3)
   ServerAliveInterval 200
 
 (vi ssh\_config 파일 readonly이면 sudo su로 root로 로그인하여 다시 시도 )
+
+
+{{< adsense >}}

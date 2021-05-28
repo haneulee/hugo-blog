@@ -42,3 +42,6 @@ $ yum install nodejs -y
 -   설치를 확인합니다
 
 $ node --version $ npm --version
+
+
+{{< adsense >}}

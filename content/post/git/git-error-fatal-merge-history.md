@@ -40,3 +40,6 @@ fatal: refusing to merge unrelated histories
 ```
 git pull origin 브런치명 --allow-unrelated-histories
 ```
+
+
+{{< adsense >}}

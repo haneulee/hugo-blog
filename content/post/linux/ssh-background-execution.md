@@ -97,3 +97,7 @@ nohup 명령어를 사용하면 명령어를 사용한 디렉토리에 nohup.out
 [https://mytory.net/archives/2340](https://mytory.net/archives/2340)
 
 [https://tyson.tistory.com/88](https://tyson.tistory.com/88)
+
+
+
+{{< adsense >}}

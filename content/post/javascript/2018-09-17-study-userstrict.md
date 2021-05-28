@@ -131,3 +131,7 @@ console.log(fun.apply(null));
 console.log(fun.call(undefined));
 console.log(fun.bind(true)());
 ```
+
+
+
+{{< adsense >}}

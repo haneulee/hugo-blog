@@ -231,3 +231,7 @@ Context API를 클래스에서 사용할 때(레거시 `contextTypes` 또는 Rea
 
 
 ### [Dan Abramov blog](https://overreacted.io/why-do-we-write-super-props/) 참고
+
+
+
+{{< adsense >}}

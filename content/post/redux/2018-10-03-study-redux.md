@@ -47,3 +47,7 @@ tags: [javascript, react, Redux, 리덕스]
 ![5](/assets/redux/5.png)  
 ![6](/assets/redux/6.png)  
 ![7](/assets/redux/7.png)
+
+
+
+{{< adsense >}}

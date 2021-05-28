@@ -60,3 +60,6 @@ yarn add cross-env
 **| 기타**
 
 처음에 NODE\_PATH를 설정할 때 src로 설정했더니 빌드시에 경로를 제대로 못 잡아서 src/로 잡아주었더니 해결되었다.
+
+
+{{< adsense >}}

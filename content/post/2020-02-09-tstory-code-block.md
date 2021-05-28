@@ -49,3 +49,6 @@ coverMeta: out
 내가 원하는 테마는 Darcular 였기 때문에 플러그인으로 쉽게 변경할 수 있었다. 
 
 ![](https://blog.kakaocdn.net/dn/zBpLt/btqBQ2nKxw1/H8M1NjN6KDoNJJ7zQBxw3k/img.png)
+
+
+{{< adsense >}}
