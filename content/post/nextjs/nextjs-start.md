@@ -21,7 +21,6 @@ thumbnailImage: "https://cdn.jsdelivr.net/gh/haneulee/haneulee.github.io/img/pos
 # coverImage: //d1u9biwaxjngwg.cloudfront.net/cover-image-showcase/city.jpg
 metaAlignment: center
 coverMeta: out
-draft: true
 ---
 
 
