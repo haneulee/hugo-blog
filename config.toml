@@ -19,7 +19,7 @@ title = "Haneul Devlog"
 theme = "tranquilpeak"
 # disqusShortname = "haneulee-github-io"
 googleAnalytics = "G-BHPHWPTLMZ"
-paginate = 7
+paginate = 10
 canonifyurls = true
 
 [permalinks]

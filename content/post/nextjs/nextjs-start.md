@@ -1,5 +1,5 @@
 ---
-title: "Nextjs Start"
+title: "NextJS 서버 사이드 렌더링 👩🏻‍💻"
 date: 2021-05-26T14:32:39+09:00
 categories: 
 - development
@@ -8,9 +8,10 @@ tags:
 - development
 - front-end
 - nextjs
-- 서버렌더링
+- 서버사이드렌더링
 - 프론트엔드
 - 프레임워크
+- 정적사이트
 keywords: 
 - development
 - front-end

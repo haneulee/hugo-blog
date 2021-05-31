@@ -25,10 +25,10 @@ metaAlignment: center
 coverMeta: out
 ---
 <!--toc-->
+![](https://cdn.jsdelivr.net/gh/haneulee/haneulee.github.io/img/post/pug/img-1.png)
 {{< adsense >}}
 
 # Pug
-![]("https://cdn.jsdelivr.net/gh/haneulee/haneulee.github.io/img/post/pug/img-1.png")
 
 
 ## Pug 란 ?
