@@ -10,12 +10,14 @@ keywords:
 - development
 - front-end
 cover: ""
-draft: false
 thumbnailImagePosition: left
 thumbnailImage: ""
-# coverImage: //d1u9biwaxjngwg.cloudfront.net/cover-image-showcase/city.jpg
+# coverImage: //https://cdn.jsdelivr.net/gh/haneulee/haneulee.github.io/img/post/hugo/github-site.png
 metaAlignment: center
 coverMeta: out
+draft: false
 ---
+
 <!--toc-->
+
 {{< adsense >}}
