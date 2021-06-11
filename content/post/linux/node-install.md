@@ -23,8 +23,8 @@ metaAlignment: center
 coverMeta: out
 ---
 
-## 1\. Nodejs 설치
-
+## 1 Nodejs 설치
+{{< adsense >}}
 -   설치에 관련된 설명은 아래 링크를 참조하였습니다.
 
 [https://nodejs.org/ko/download/package-manager/](https://nodejs.org/ko/download/package-manager/)
@@ -34,7 +34,7 @@ coverMeta: out
 $ curl --silent --location [https://rpm.nodesource.com/setup\_10.x](https://rpm.nodesource.com/setup_8.x) | sudo bash --
 
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FLXdlF%2FbtqF9miYdcH%2F96dCLQzg5wuxSEqGJYgAsk%2Fimg.png)
-{{< adsense >}}
+
 
 
 -   Node.js 설치 준비가 완료되었습니다. 아래의 명령어로 install 합니다.

@@ -6,7 +6,7 @@ categories: [development, javascript]
 tags: [javascript, use, strict]
 ---
 
-자바스크립트 use strict 모드
+# 자바스크립트 use strict 모드
 ===========
 
 : strict 모드는 ES5(ECMA Script 5)에 추가된 키워드
@@ -18,6 +18,7 @@ strict 모드는 자바스크립트가 묵인했던 에러들의 에러 메시�
 temp = 4;
 ```
 
+{{< adsense >}}
 - writable이 false로, 읽기 전용 객체에 쓰는 것이 불가능. (read only 객체 수정 불가능)
 ```{.javascript}
 "use strict";
@@ -110,8 +111,6 @@ console.log(pair[1]);
 - 함수 선언은 스크립트나 함수의 최상위에서 해야함.
 - 예약된 키워드의 이름으로 변수 또한 함수를 생성할 수 없다.
 - callee, caller를 통해 stack 검색이 불가능.
-
-{{< adsense >}}
 
 ```{.javascript}
 function restricted() {

@@ -12,6 +12,10 @@ metaAlignment: center
 coverMeta: out
 ---
 
+<!--toc-->
+
+# 티스토리 Code Block
+
 개발 블로그를 작성하다보면 코드 블럭을 사용하는 경우가 많다. 
 
 그런데 아래처럼 코드블럭이 그냥 일반 텍스트처럼 나와 매우 가독성이 떨어진다. 
@@ -21,12 +25,13 @@ coverMeta: out
 ![](https://blog.kakaocdn.net/dn/GrZYu/btqBNMNomxQ/f9wfkU88g7Umz5L3CsjyR0/img.png)
 
 
-**2가지 방법이 있는데, **
+2가지 방법이 있는데,
 
 **1\. 관리페이지 > 플러그인 > 코드블럭 > 마음에 드는 스타일 설정**
 
 **2\. 스킨편집 > html 편집 > 'head'태그 안에 Highlight.js 임포트**
 
+{{< adsense >}}
 2번 방법은
 
 먼저 아래 코드를 <head>태그 안에 넣으면 됨!
@@ -39,7 +44,6 @@ coverMeta: out
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.5.0/highlight.min.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 ```
-{{< adsense >}}
 
 ![](https://blog.kakaocdn.net/dn/m42J6/btqBRwvm8CS/RwybAlxm2zeLp2zEk32w91/img.png)
 

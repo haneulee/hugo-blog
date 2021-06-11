@@ -31,7 +31,7 @@ Lodash의 모듈 식 방법은 다음에 적합합니다.
 - 배열, 객체 및 문자열 반복
 - 값 조작 및 테스트
 - 복합 함수 만들기
-
+{{< adsense >}}
 ## map
 
 ### _.map(collection, [iteratee=_.identity])
@@ -116,7 +116,6 @@ This method is like _.uniq except that it accepts iteratee which is invoked for 
 array (Array): The array to inspect.
 [iteratee=_.identity] (Function): The iteratee invoked per element.
 
-{{< adsense >}}
 
 
 ***Returns***

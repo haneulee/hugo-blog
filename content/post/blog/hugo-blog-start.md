@@ -103,7 +103,7 @@ Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
 Press Ctrl+C to stop
 ```
 ## public 폴더에 호스팅할 레파지토리 추가
- 
+ {{< adsense >}}
 먼저 hugo 블로그를 [사용자 아이디].github.io 주소로 올리고 싶을 때는 
 깃헙 레파지토리를 2개 생성해야한다. 
 

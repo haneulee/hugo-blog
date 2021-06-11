@@ -10,6 +10,7 @@ tags:
 - git
 - push
 - error
+- refusing
 keywords: 
 - development
 - front-end
@@ -24,6 +25,7 @@ coverMeta: out
 git clone 후, git push 하는 과정 중에 
 
 다음과 같이 오류가 날 경우가 있다. 
+{{< adsense >}}
 
 이는 push 하기 전에 git pull 을 먼저 실행해야 하는데 그 전에 수정했던 어떤 커밋과 꼬여 오류가 날 경우..
 
@@ -31,7 +33,6 @@ git clone 후, git push 하는 과정 중에 
 fatal: refusing to merge unrelated histories
 ```
 
-{{< adsense >}}
 
 이럴 때는 
 

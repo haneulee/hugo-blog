@@ -27,7 +27,7 @@ coverMeta: out
 ![](https://cdn.jsdelivr.net/gh/haneulee/haneulee.github.io/img/post/nextjs/img-3.png)
 
 # document is not defined 오류 해결방법
-
+{{< adsense >}}
 - 서버사이드 렌더링인 nextJS를 사용할 때는 window 또는 Document 객체를 사용할 수 없다. 
 
 
@@ -44,7 +44,7 @@ if (typeof window === 'object') {
      });
   }
 ```
-{{< adsense >}}
+
 
 ### 두번째
 - nextJS는 react를 사용할 수 있기 때문에 react에서 컴포넌트가 마운트 또는 업데이트 된 다음에 동작하는 componentDidMount 또는 useEffect 훅을 사용하여 체크한다.

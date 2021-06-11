@@ -30,6 +30,8 @@ ssl 인증서는 https로 웹사이트를 통신하기 위해서 
 
 꼭 필요한 것이다. 
 
+{{< adsense >}}
+
 aws 서비스에서 certificate Manager 혹은 ssl 으로 검색하면 아래와 같이 공인 인증서에 체크하고,
 
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbA8xSr%2FbtqBVe3N1CT%2FEO8KMTG2b9ecPEMGX3oZTK%2Fimg.png)
@@ -44,7 +46,6 @@ dns 검증을 선택하고, 
 
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FR9zwd%2FbtqBYfGGseY%2F4LLVI5mAiKYg4awqwuUxuk%2Fimg.png)
 
-{{< adsense >}}
 
 태그는 그냥 다음으로 넘어가고, 
 

@@ -31,7 +31,7 @@ coverMeta: out
 
 
 # disqus에서 utterances로 변경하기
-
+{{< adsense >}}
 hugo를 사용하여 블로그를 만든 뒤, 
 댓글 기능을 disqus를 사용하여 만들었는데 몇일 뒤에 보니 
 댓글 부분에 여러 광고가 다닥다닥 붙어 있었다.......

@@ -24,11 +24,16 @@ metaAlignment: center
 coverMeta: out
 ---
 
+
+# gitlab pages에 나의 도메인 연결하기
+
 먼저 gitlab repository를 새로 만들고 , 
 
 정적 웹페이지 든 spa 이든 프로젝트 폴더를 만들고 
 
 .gitlab-ci.yml 파일을 새로 만들어서 아래와 같이 입력한다. 
+
+{{< adsense >}}
 
 ```
 image: node:latest
@@ -65,11 +70,8 @@ pages:
 이 페이지로 들어가면 웹사이트를 확인할 수 있다. 
 
 <추가 설명>
-
 [https://velog.io/@wickedev/Gitlab-CICD-%ED%8A%9C%ED%86%A0%EB%A6%AC%EC%96%BC-bljzphditt](https://velog.io/@wickedev/Gitlab-CICD-%ED%8A%9C%ED%86%A0%EB%A6%AC%EC%96%BC-bljzphditt)
 
-
-{{< adsense >}}
 
 그리고 나의 도메인으로 이 페이지가 보여지기 위해서
 
@@ -84,6 +86,7 @@ gitlab프로젝트 에서 설정 > 페이지 메뉴로 들어가면,
 도메인 이름을 적은 뒤 create new domain버튼을 눌러주면 된다. 
 
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FB7wAZ%2FbtqBUTZRU2a%2FZkVPDNukK7yJTuC8it3Mv1%2Fimg.png)
+
 좀 기다리면 도메인이 연동되고, 
 
 해당 도메인으로 깃랩 페이지가 연결되어 해당 페이지를 볼 수 있다.

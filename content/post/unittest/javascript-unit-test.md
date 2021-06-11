@@ -33,8 +33,6 @@ coverMeta: out
 
 <!--toc-->
 
-{{< adsense >}}
-
 
 <p>
   <br/>
@@ -96,6 +94,9 @@ coverMeta: out
 </p>
 
 ![](https://cdn.jsdelivr.net/gh/haneulee/haneulee.github.io/img/post/unittest/img-1.png)
+
+
+{{< adsense >}}
 
 <p class="gb gc eg ge b gf kc gh gi gj kd gl gm gn ke gp gq gr kf gt gu gv kg gx gy gz jz ka kb fc" style="list-style-type: disc;">
   <br/>

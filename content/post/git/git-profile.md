@@ -21,6 +21,8 @@ metaAlignment: center
 coverMeta: out
 ---
 
+<!--toc-->
+
 # Git Profile 꾸미기
 
 먼저 아래 그림과 같이 git repository에서 나의 id와 똑같은 이름으로 새로운 repository를 생성한다. 
@@ -28,7 +30,7 @@ coverMeta: out
 ![]()
 
 생성이 되면 해당 레파지토리에 read.me에는 다음과 같이 작성되어 있을 것이다. 
-
+{{< adsense >}}
 ```
 ### Hi there 👋
 
@@ -65,8 +67,6 @@ https://img.shields.io/static/v1?label=<LABEL>&message=<MESSAGE>&color=<COLOR>
 https://img.shields.io/badge/뱃지에쓸글씨-색상코드?style=flat-square&logo=쓰고싶은 아이콘이름&logoColor=white&link=너의링크
 ```
 
-
-{{< adsense >}}
 
 ## 화려한 배경 만들기
 [capsule-render](https://github.com/kyechan99/capsule-render)

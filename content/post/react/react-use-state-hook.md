@@ -23,8 +23,9 @@ metaAlignment: center
 coverMeta: out
 ---
 
+<!--toc-->
+
 ## 배열 state 
-{{< adsense >}}
 
 
 #### 1\. 추가
@@ -38,6 +39,7 @@ setLanguage([...language, newLanguage]);
 setLanguage(language.concat(newLanguage));
 ```
 
+{{< adsense >}}
 #### 2\. 삭제
 
 ```

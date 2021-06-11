@@ -21,6 +21,10 @@ metaAlignment: center
 coverMeta: out
 ---
 
+<!--toc-->
+
+# 리액트 절대 경로 설정하기
+
 Web을 개발하다보면 폴더와 파일의 depth가 깊어지는 경우가 있다.
 
 이런 경우 파일 import시에 ../../components/sign/logout 식으로 ../가 많아져서 복잡하고 번거로워진다.
@@ -34,7 +38,7 @@ Web을 개발하다보면 폴더와 파일의 depth가 깊어지는 경우가 �
 {{< adsense >}}
 
 
-**| Linux, Mac 에서 설정하기**
+## **| Linux, Mac 에서 설정하기**
 
 프로젝트의 package.json 로 이동 후, scripts의 start, build 부분을 다음과 같이 수정한다.
 
@@ -43,7 +47,7 @@ Web을 개발하다보면 폴더와 파일의 depth가 깊어지는 경우가 �
 "build": "NODE_PATH=src/ react-scripts build",
 ```
 
-**| Window 에서 설정하기**
+## **| Window 에서 설정하기**
 
 여기서는 cross-env가 필요하다.
 
@@ -60,7 +64,7 @@ yarn add cross-env
 "build": "cross-env NODE_PATH=src/ react-scripts build",
 ```
 
-**| 기타**
+## **| 기타**
 
 처음에 NODE\_PATH를 설정할 때 src로 설정했더니 빌드시에 경로를 제대로 못 잡아서 src/로 잡아주었더니 해결되었다.
 

@@ -24,8 +24,11 @@ metaAlignment: center
 coverMeta: out
 ---
 
+<!--toc-->
+
+## XCODE TVML app 👩🏻‍💻
+
 xcode에서 tvml 샘플 앱을 만들어 테스트 해보기 
-{{< adsense >}}
 
 
 ### STEP 1.
@@ -43,6 +46,7 @@ xcode 를 열고, create new project 를 통해 tvOS 탭에서 TVML App 을 선�
 
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcsN4SB%2FbtqUnJDJxcZ%2FEIZsfYW5I4TsNJMCXnh3ek%2Fimg.png)
 
+{{< adsense >}}
 ### STEP 3.
 
 터미널을 통해 해당 프로젝트 디렉토리로 가서 웹서버를 실행한다. 

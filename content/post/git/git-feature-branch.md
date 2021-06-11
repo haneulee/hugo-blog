@@ -26,12 +26,15 @@ coverMeta: out
 
 
 # branch 생성
+- 아래 명령어로 새로운 브랜치 생성
+{{< adsense >}}
 
 ```
 $ git branch <branchName>
 ```
 
 # 생성한 브랜치로 이동
+- 생성한 브랜치로 체크아웃하기
 
 ```
 $ git checkout <branchName>
@@ -43,11 +46,9 @@ $ git checkout -b <branchName>
 ```
 
 
-{{< adsense >}}
-
 # 원격 저장소에 push 하기
 
-로컬에서만 생성한 branch를 upstream branch로 만든다.
+- 로컬에서만 생성한 branch를 upstream branch로 만든다.
 
 ```
 $ git push --set-upstream origin <branchName>

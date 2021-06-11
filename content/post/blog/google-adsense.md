@@ -38,10 +38,12 @@ coverMeta: out
 
 - 구글 애드센스는 개인의 블로그/사이트에 광고를 게재할 수 있는 네이버 애드포스트와 같은 수익형 광고이다.
 
+{{< adsense >}}
 ## 구글 애드센스 신청
 
 먼저 [구글 애드센스 웹사이트]()에 접속해서 구글 로그인 후, 사이트 주소를 입력하고 아래처럼 코드가 나오면 이 코드를 내 블로그 head 태그 안에 삽입해주고 포스팅하면 된다.
 결과가 나오기까지는 사람마다 다른데 보통 1주일 후면 나오는 것 같다.
+
 
 ```
 <script data-ad-client="ca-pub-7146914144035062" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -56,8 +58,6 @@ coverMeta: out
 
 ![](https://cdn.jsdelivr.net/gh/haneulee/haneulee.github.io/img/post/blog/img-ad-1.png)
 
-
-{{< adsense >}}
 
 ### 합격하기 위한 블로그 글의 조건
 

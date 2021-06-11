@@ -12,6 +12,10 @@ tags:
 - 플러터
 - ios
 - 앱개발
+- mobile
+- 모바일
+- swift
+- javascript
 keywords: 
 - development
 - front-end
@@ -24,16 +28,19 @@ metaAlignment: center
 coverMeta: out
 ---
 
+# 플러터 Flutter 📱
+
 [flutter-ko.dev/docs/get-started/install/macos](https://flutter-ko.dev/docs/get-started/install/macos)
 
 
-플러터 설치 방법은 아래와 같이 2가지가 있다. 
+## 플러터 설치 방법은 아래와 같이 2가지가 있다. 
 
+{{< adsense >}}
 1.  플러터 sdk로 설치하기 
 2.  git clone 으로 설치하기 
     1.  [github.com/flutter/flutter.git](https://github.com/flutter/flutter.git)
 
-다음은 아래와 같이 flutter PATH  설정하기
+## 다음은 아래와 같이 flutter PATH  설정하기
 
 ```
 cd vi .bash_profile
@@ -61,10 +68,9 @@ xcode 버전이 최소 11이상이어야 해서 맥os 업데이트와 xcode 설�
 
 나는 ios만 테스트할 것이므로 안드로이드 관련 설정은 패스!!!
 
-다음은 flutter 프로젝트 생성!
+## 다음은 flutter 프로젝트 생성!
 
 
-{{< adsense >}}
 
 ```
 flutter create my_app

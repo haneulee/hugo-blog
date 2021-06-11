@@ -28,6 +28,8 @@ coverMeta: out
 ---
 <!--toc-->
 
+# Frontend SonarQube 적용
+
 이번에 회사에서 개발 코드 정적 분석 툴인 
 
 소나큐브 (sonarqube)를 도입하기로 해서 사전 검토에 들어갔다. 
@@ -41,7 +43,7 @@ coverMeta: out
 
 -----------------------
 
-### 1\. 소나큐브 서버 띄우기
+## 1\. 소나큐브 서버 띄우기
 
 
 소나큐브는 아래 사이트에서 다운로드 받고, 
@@ -98,7 +100,7 @@ sonarqube server를 띄워주는데 default url은 http://localhost:9000 이다.
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fmy1O7%2FbtqSXkMuhBx%2F4oo8oRSuvqwjQeLAQXRPPk%2Fimg.png)
 
 -------------------
-### 2\. 소나스캐너로 코드 검사 하기
+## 2\. 소나스캐너로 코드 검사 하기
 
 위에서 복사했던 소나스캐너 명령어를 검사할 프로젝트 root 위치에서 실행해준다. 
 

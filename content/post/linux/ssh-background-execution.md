@@ -26,6 +26,10 @@ metaAlignment: center
 coverMeta: out
 ---
 
+<!--toc-->
+
+## ssh 백그라운드 실행 방법
+
 터미널에서 또는 명령창에서 
 
 ssh 로 접속하여 서버를 실행 후, 
@@ -35,7 +39,7 @@ ssh 로 접속하여 서버를 실행 후, 
 해당 서버에서 계속 서버를 띄어놓기 위해 
 
 백그라운드로 실행하는 방법이 있다. 
-
+{{< adsense >}}
 ### nohup
 
 nohup node server.js > /dev/null 2>&1 &
@@ -89,7 +93,7 @@ nohup 명령어를 사용하면 명령어를 사용한 디렉토리에 nohup.out
 이 파일에는 nohup으로 실행하는 명령의 출력이 기록되어진다.
 
 이 파일을 생성하고 싶지 않다면 /dev/null에 출력하도록 하면 된다.
-{{< adsense >}}
+
 
 
 \# nohup echo hello > /dev/null

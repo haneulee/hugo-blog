@@ -39,6 +39,8 @@ mkdir ~/.ssh
 chmod 700 ~/.ssh
 cd .ssh
 
+{{< adsense >}}
+
 // ssh 사용자 키 생성
 ssh-keygen -t rsa -b 4096 -C “lovesky4294@gmail.com”
 
@@ -71,7 +73,7 @@ eval $(ssh-agent -s)
 // ssh-add를 사용해 개인키를 ssh-agent에 등록함 (비밀번호 입력)
 ssh-add ~/.ssh/id_rsa
 ```
-{{< adsense >}}
+
 
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FJxTkr%2Fbtq4EtxEOJF%2FXedFUpWTQKjTwiKpiHhG41%2Fimg.png)
 

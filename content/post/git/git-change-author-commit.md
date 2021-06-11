@@ -25,6 +25,7 @@ coverMeta: out
 <!--toc-->
 
 # git config user.email 수정
+{{< adsense >}}
 
 ```
 git config --global user.email "이메일"
@@ -57,7 +58,6 @@ git commit --amend --author="haneulee <lovesky4294@gmail.com>"
 ```
  
 
-{{< adsense >}}
  
 
 # git rebase --continue,  git push origin master
