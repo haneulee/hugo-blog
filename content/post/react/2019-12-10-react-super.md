@@ -18,6 +18,8 @@ tags: [javascript, hooks, super, 리액트, 훅스]
 
 웃기게도 나는 클래스 컴포넌트에 대한 재미있는 것들을 설명하면서 이 블로그를 시작하고 싶다. 
 
+{{< adsense >}}
+
 
 {{< alert info >}}
 **이런 것들은(클래스 컴포넌트) 리액트를 생산적으로 사용하는데 별로 중요하지 않다. 그러나 이것들이 어떻게 작동하는지 깊게 알고 싶다면 아마 놀라울 것이다.** 
@@ -218,20 +220,6 @@ Context API를 클래스에서 사용할 때(레거시 `contextTypes` 또는 Rea
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 ### [Dan Abramov blog](https://overreacted.io/why-do-we-write-super-props/) 참고
 
 
-
-{{< adsense >}}

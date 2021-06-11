@@ -33,6 +33,9 @@ coverMeta: out
 
 <!--toc-->
 
+{{< adsense >}}
+
+
 <p>
   <br/>
 </p>
@@ -340,5 +343,3 @@ coverMeta: out
   <br/>
 </p>
 
-
-{{< adsense >}}

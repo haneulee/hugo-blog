@@ -39,6 +39,7 @@ coverMeta: out
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.5.0/highlight.min.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 ```
+{{< adsense >}}
 
 ![](https://blog.kakaocdn.net/dn/m42J6/btqBRwvm8CS/RwybAlxm2zeLp2zEk32w91/img.png)
 
@@ -50,5 +51,3 @@ coverMeta: out
 
 ![](https://blog.kakaocdn.net/dn/zBpLt/btqBQ2nKxw1/H8M1NjN6KDoNJJ7zQBxw3k/img.png)
 
-
-{{< adsense >}}

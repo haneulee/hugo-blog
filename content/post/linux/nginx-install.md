@@ -81,7 +81,10 @@ sed -i “s|–with-http\_ssl\_module|–with-http\_ssl\_module –with-openssl=
   
 5\. Compile  
   
-rpmbuild -ba /root/rpmbuild/SPECS/nginx.spec  
+rpmbuild -ba /root/rpmbuild/SPECS/nginx.spec 
+
+{{< adsense >}}
+
   
 6\. Install  
   
@@ -95,5 +98,3 @@ nginx -v
   
 How to Enable TLS 1.3 in Chrome, Safari and Firefox?
 
-
-{{< adsense >}}

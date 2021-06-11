@@ -31,6 +31,8 @@ git clone 후, git push 하는 과정 중에 
 fatal: refusing to merge unrelated histories
 ```
 
+{{< adsense >}}
+
 이럴 때는 
 
 아래처럼 실행하주고, 
@@ -41,5 +43,3 @@ fatal: refusing to merge unrelated histories
 git pull origin 브런치명 --allow-unrelated-histories
 ```
 
-
-{{< adsense >}}

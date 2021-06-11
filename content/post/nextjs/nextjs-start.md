@@ -35,6 +35,9 @@ coverMeta: out
 Next.js는 리액트를 SSR(Server-Side rendering) 방식을 구현할 수 있도록 도와주는 프레임워크이다.
 정확하게는, SSR과 CSR의 각 장점을 조합하여 동작하게 된다.
 
+{{< adsense >}}
+
+
 ## SSR과 CSR의 차이
 기본적으로 처음 웹 화면을 접속하면, DOM과 스크립트 코드, 리소스 등 해당 웹 페이지를 구성하기 위해 필요로 한 모든 요소들을 서버에서 로드하게 된다.
 
@@ -57,5 +60,3 @@ CSR의 장점은 이미 클라이언트에서 전체 페이지가 렌더링이 �
 
 참고 :
 [NextJS 공식문서](https://nextjs.org/)
-
-{{< adsense >}}

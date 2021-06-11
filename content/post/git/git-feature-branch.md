@@ -42,6 +42,9 @@ $ git checkout <branchName>
 $ git checkout -b <branchName>
 ```
 
+
+{{< adsense >}}
+
 # 원격 저장소에 push 하기
 
 로컬에서만 생성한 branch를 upstream branch로 만든다.
@@ -50,6 +53,3 @@ $ git checkout -b <branchName>
 $ git push --set-upstream origin <branchName>
 ```
 
-
-
-{{< adsense >}}

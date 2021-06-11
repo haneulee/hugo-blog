@@ -27,7 +27,7 @@ metaAlignment: center
 coverMeta: out
 ---
 <!--toc-->
-{{< adsense >}}
+
 ![](https://cdn.jsdelivr.net/gh/haneulee/haneulee.github.io/img/post/graphql/img-1.png)
 
 # GraphQL
@@ -64,6 +64,7 @@ query {
   }
 }
 ```
+{{< adsense >}}
 
 ### mutation
 - 데이터 조작. 쿼리 필드는 병렬로 실행되지만 뮤테이션 필드는 하나씩 차례대로 실행된다.

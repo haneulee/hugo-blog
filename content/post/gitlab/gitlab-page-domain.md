@@ -68,6 +68,9 @@ pages:
 
 [https://velog.io/@wickedev/Gitlab-CICD-%ED%8A%9C%ED%86%A0%EB%A6%AC%EC%96%BC-bljzphditt](https://velog.io/@wickedev/Gitlab-CICD-%ED%8A%9C%ED%86%A0%EB%A6%AC%EC%96%BC-bljzphditt)
 
+
+{{< adsense >}}
+
 그리고 나의 도메인으로 이 페이지가 보여지기 위해서
 
 도메인을 연결해야 한다. 
@@ -85,5 +88,3 @@ gitlab프로젝트 에서 설정 > 페이지 메뉴로 들어가면,
 
 해당 도메인으로 깃랩 페이지가 연결되어 해당 페이지를 볼 수 있다.
 
-
-{{< adsense >}}

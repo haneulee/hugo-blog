@@ -25,7 +25,6 @@ metaAlignment: center
 coverMeta: out
 ---
 <!--toc-->
-{{< adsense >}}
 
 ![](https://cdn.jsdelivr.net/gh/haneulee/haneulee.github.io/img/post/mongodb/img-1.png)
 
@@ -46,6 +45,8 @@ mongoDB는 문서지향(Document-Oriented) 저장소를 제공하는 NoSQL 데�
 - 인덱싱 제공
 
 -----------------------
+
+{{< adsense >}}
 
 ## NoSQL
 기존의 데이터베이스들은 대부분 관계형 모델에 기반을 두고 있으므로 대부분 SQL이라는 질의문에 의해 데이터베이스를 수정, 갱신, 저장, 검색하도록 구성되어 있습니다. 그러나 최근 들어 이러한 관계형 데이터베이스 모델과는 다른 데이터베이스 관리 시스템에 대한 관심이 증가하고 있는데, 이러한 시스템을 일컬어 NoSQL(Not Only SQL)이라고 부르며 mongoDB는 이러한 데이터베이스 시스템 중 하나입니다. 빅데이터를 다룰 때 RDBMS로만 트래픽을 감당하기 어려워져 이를 해결하기 위해 탄생한 것이 NoSQL입니다. 관계형 데이터 모델을 사용하지 않고 SQL을 사용하지 않는 그 이외의 모든 데이터베이스 시스템 또는 데이터 스토어를 일컬어 NoSQL이라고 칭합니다. 가장 큰 특징은 확장성과 기용성, 높은 성능, 그리고 다양한 데이터 형태를 수용할 수 있다는 것입니다. 

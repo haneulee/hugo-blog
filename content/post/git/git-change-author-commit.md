@@ -57,6 +57,7 @@ git commit --amend --author="haneulee <lovesky4294@gmail.com>"
 ```
  
 
+{{< adsense >}}
  
 
 # git rebase --continue,  git push origin master
@@ -72,5 +73,3 @@ git push origin master
 참고 :
 [https://korband.tistory.com/34](https://korband.tistory.com/34)
 
-
-{{< adsense >}}

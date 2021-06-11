@@ -89,6 +89,8 @@ nohup 명령어를 사용하면 명령어를 사용한 디렉토리에 nohup.out
 이 파일에는 nohup으로 실행하는 명령의 출력이 기록되어진다.
 
 이 파일을 생성하고 싶지 않다면 /dev/null에 출력하도록 하면 된다.
+{{< adsense >}}
+
 
 \# nohup echo hello > /dev/null
 
@@ -99,5 +101,3 @@ nohup 명령어를 사용하면 명령어를 사용한 디렉토리에 nohup.out
 [https://tyson.tistory.com/88](https://tyson.tistory.com/88)
 
 
-
-{{< adsense >}}

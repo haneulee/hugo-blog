@@ -110,6 +110,9 @@ console.log(pair[1]);
 - 함수 선언은 스크립트나 함수의 최상위에서 해야함.
 - 예약된 키워드의 이름으로 변수 또한 함수를 생성할 수 없다.
 - callee, caller를 통해 stack 검색이 불가능.
+
+{{< adsense >}}
+
 ```{.javascript}
 function restricted() {
     "use strict";
@@ -133,5 +136,3 @@ console.log(fun.bind(true)());
 ```
 
 
-
-{{< adsense >}}

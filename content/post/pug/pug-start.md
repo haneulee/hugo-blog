@@ -26,7 +26,6 @@ coverMeta: out
 ---
 <!--toc-->
 ![](https://cdn.jsdelivr.net/gh/haneulee/haneulee.github.io/img/post/pug/img-1.png)
-{{< adsense >}}
 
 # Pug
 
@@ -41,6 +40,7 @@ coverMeta: out
 이름을 바꾸기 전에는 이미 "Jade 2.0.0"에서 작업이 시작되었습니다. 
 따라서 Pug 로의 이름 변경은 주요 버전 범프와 일치했습니다. 결과적으로 Jade에서 Pug로 업그레이드하는 것은 메이저 버전 범프가있는 다른 패키지를 업그레이드하는 것과 동일한 프로세스가 됩니다.
 
+{{< adsense >}}
 
 
 

@@ -40,6 +40,8 @@ npm run eject를 해야 웹팩 설정이 보이고, 거기서 수정해야한다
 그런데 한번 eject를 하면 React의 버전업에 대한 자동으로 다른 구성요소 및 설정이 변경되는 장점을 잃어버리게 된다
 
 하지만 나는 eject를 하기 싫었으므로 이를 피해가기 위해 craco를 사용하였다. 
+{{< adsense >}}
+
 
 **설치**
 
@@ -131,5 +133,3 @@ import { useLocalization } from '@locales';
 
 ```
 
-
-{{< adsense >}}

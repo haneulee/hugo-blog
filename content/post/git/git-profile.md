@@ -65,6 +65,9 @@ https://img.shields.io/static/v1?label=<LABEL>&message=<MESSAGE>&color=<COLOR>
 https://img.shields.io/badge/뱃지에쓸글씨-색상코드?style=flat-square&logo=쓰고싶은 아이콘이름&logoColor=white&link=너의링크
 ```
 
+
+{{< adsense >}}
+
 ## 화려한 배경 만들기
 [capsule-render](https://github.com/kyechan99/capsule-render)
 
@@ -76,5 +79,3 @@ https://img.shields.io/badge/뱃지에쓸글씨-색상코드?style=flat-square&l
 - [github status](https://github.com/anuraghazra/github-readme-stats)
 - [daily coding time](https://github.com/techinpark/productive-box)
 
-
-{{< adsense >}}

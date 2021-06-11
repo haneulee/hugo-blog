@@ -24,6 +24,8 @@ coverMeta: out
 ---
 
 ## 배열 state 
+{{< adsense >}}
+
 
 #### 1\. 추가
 
@@ -56,5 +58,3 @@ setLanguage(
     );
 ```
 
-
-{{< adsense >}}

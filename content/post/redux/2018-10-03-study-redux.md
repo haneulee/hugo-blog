@@ -10,6 +10,8 @@ tags: [javascript, react, Redux, 리덕스]
 # Redux 리덕스
 
 : 리액트를 위한 스테이트 매니지먼트 툴 (복잡한 앱에서 효율적, 단순한 앱에서 필요없음)
+{{< adsense >}}
+
 
 ## Why do we need it? 왜 필요한가?
 
@@ -49,5 +51,3 @@ tags: [javascript, react, Redux, 리덕스]
 ![7](/assets/redux/7.png)
 
 
-
-{{< adsense >}}

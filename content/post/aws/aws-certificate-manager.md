@@ -44,6 +44,7 @@ dns 검증을 선택하고, 
 
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FR9zwd%2FbtqBYfGGseY%2F4LLVI5mAiKYg4awqwuUxuk%2Fimg.png)
 
+{{< adsense >}}
 
 태그는 그냥 다음으로 넘어가고, 
 
@@ -63,4 +64,3 @@ https://로도 접속이 가능하게 된다.
 
 
 
-{{< adsense >}}

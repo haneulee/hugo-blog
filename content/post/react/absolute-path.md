@@ -31,6 +31,9 @@ Web을 개발하다보면 폴더와 파일의 depth가 깊어지는 경우가 �
 
 방법은 아래와 같다.
 
+{{< adsense >}}
+
+
 **| Linux, Mac 에서 설정하기**
 
 프로젝트의 package.json 로 이동 후, scripts의 start, build 부분을 다음과 같이 수정한다.
@@ -61,5 +64,3 @@ yarn add cross-env
 
 처음에 NODE\_PATH를 설정할 때 src로 설정했더니 빌드시에 경로를 제대로 못 잡아서 src/로 잡아주었더니 해결되었다.
 
-
-{{< adsense >}}

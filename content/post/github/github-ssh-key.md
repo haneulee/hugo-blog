@@ -71,6 +71,7 @@ eval $(ssh-agent -s)
 // ssh-add를 사용해 개인키를 ssh-agent에 등록함 (비밀번호 입력)
 ssh-add ~/.ssh/id_rsa
 ```
+{{< adsense >}}
 
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FJxTkr%2Fbtq4EtxEOJF%2FXedFUpWTQKjTwiKpiHhG41%2Fimg.png)
 
@@ -87,4 +88,3 @@ new SSH key 를 클릭한다.
 Key 안에 복사했던 공개키를 붙여넣고, 타이틀 지정
 
 
-{{< adsense >}}

@@ -36,6 +36,8 @@ coverMeta: out
 ClientAliveInterval 초단위 (default 0)  
 Client에서 수신한 data가 없을 경우 sshd 데몬에서 클라이언트가 살아있는지 체크하기 위한 메시지(client alive messages)를 보내게 되는데, 이 메시지를 보내는 초단위 간격을 설정한다. 0이면 보내지 않는 것이며, 600이면 600초(10분) 간격으로 클라이언트로 메시지를 보내고 응답을 확인한다. 이 메시지는 암호화된 채널을 통해 보내지므로 스푸핑을 할 수 없다. SSH protocol V2에서만 적용
 
+{{< adsense >}}
+
 ClientAliveCountMax 횟수 (default 3)  
 클라이언트에서 응답이 없을 때 메시지를 보내는 횟수를 지정한다. 횟수가 3이면 600초 X 3회 = 총 30분간 응답이 없다면 접속이 끊기게 된다.
 
@@ -46,4 +48,3 @@ ClientAliveCountMax 횟수 (default 3)
 (vi ssh\_config 파일 readonly이면 sudo su로 root로 로그인하여 다시 시도 )
 
 
-{{< adsense >}}

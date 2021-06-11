@@ -63,6 +63,9 @@ xcode 버전이 최소 11이상이어야 해서 맥os 업데이트와 xcode 설�
 
 다음은 flutter 프로젝트 생성!
 
+
+{{< adsense >}}
+
 ```
 flutter create my_app
 
@@ -87,5 +90,3 @@ flutter run
 
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcvwEfZ%2FbtqIFw2Kt69%2FZrqh8pmu2fyrYUMWykbLwk%2Fimg.png)
 
-
-{{< adsense >}}
