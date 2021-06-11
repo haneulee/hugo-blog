@@ -33,7 +33,6 @@ coverMeta: out
 
 - Express는 웹 및 모바일 애플리케이션을 위한 일련의 강력한 기능을 제공하는 간결하고 유연한 Node.js 웹 애플리케이션 프레임워크입니다.
 - 자유롭게 활용할 수 있는 수많은 HTTP 유틸리티 메소드 및 미들웨어를 통해 쉽고 빠르게 강력한 API를 작성할 수 있습니다.
-{{< adsense >}}
 ## 설치
 
 ```
@@ -41,6 +40,8 @@ npm install express
 ```
 
 ## API
+
+{{< adsense >}}
 
 ```js
 const express = require("express");

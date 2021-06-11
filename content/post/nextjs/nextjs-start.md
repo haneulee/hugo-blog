@@ -32,10 +32,9 @@ coverMeta: out
 # NextJS
 
 ## Next.js는 무엇인가?
+{{< adsense >}}
 Next.js는 리액트를 SSR(Server-Side rendering) 방식을 구현할 수 있도록 도와주는 프레임워크이다.
 정확하게는, SSR과 CSR의 각 장점을 조합하여 동작하게 된다.
-
-{{< adsense >}}
 
 
 ## SSR과 CSR의 차이
