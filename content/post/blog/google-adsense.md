@@ -57,7 +57,7 @@ coverMeta: out
 ![](https://cdn.jsdelivr.net/gh/haneulee/haneulee.github.io/img/post/blog/img-ad-1.png)
 
 
-<!-- {{< adsense >}} -->
+{{< adsense >}}
 
 ### 합격하기 위한 블로그 글의 조건
 
@@ -80,7 +80,6 @@ coverMeta: out
 
 - 위에 나와있는 광고 타입을 하나씩 추가하여 블로그에 적용하였다.
 
-{{< adsense3 >}}
 
 ## ads.txt 파일
 
