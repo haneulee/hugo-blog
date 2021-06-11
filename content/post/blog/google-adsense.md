@@ -57,7 +57,7 @@ coverMeta: out
 ![](https://cdn.jsdelivr.net/gh/haneulee/haneulee.github.io/img/post/blog/img-ad-1.png)
 
 
-{{< adsense >}}
+<!-- {{< adsense >}} -->
 
 ### 합격하기 위한 블로그 글의 조건
 
