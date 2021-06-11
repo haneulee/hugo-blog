@@ -34,7 +34,6 @@ draft: false
 - 브라우저와 백엔드 사이의 memory or history
 - 쿠키는 상태 데이터를 클라이언트에 저장했다면, 세션은 서버에 저장
 - 세션은 기본적으로는 쿠키를 사용하지만 세션 id만 쿠키로 저장하고, 상태 데이터들은 세션 id를 id로하여 서버에 저장한다.
-{{< adsense >}}
 
 
 ### stateless
@@ -62,8 +61,6 @@ TCP : TCP의 server와 client는 1. establishing connection, 2. Trasmitting data
 - 클라이언트 로컬에 저장되는 key-value 형태의 데이터
 - 클라이언트에서 서버에 request할때 쿠키를 담아 보내면, 서버에서는 쿠키에서 상태 데이터를 읽고 클라이언트의 상태를 파악하여 그에 따른 response를 준다.
 
-{{< adsense >}}
-
 
 ### 쿠키 vs 세션
 
@@ -78,5 +75,5 @@ TCP : TCP의 server와 client는 1. establishing connection, 2. Trasmitting data
 ![](https://cdn.jsdelivr.net/gh/haneulee/haneulee.github.io/img/post/browser/img-2.png)
 
 참고 : 
-![https://velog.io/@makeitcloud/%EB%9E%80-Stateless-Stateful-%EC%9D%B4%EB%9E%80](https://velog.io/@makeitcloud/%EB%9E%80-Stateless-Stateful-%EC%9D%B4%EB%9E%80),
-![https://velog.io/@damiano1027/CS-%EC%BF%A0%ED%82%A4Cookie%EC%99%80-%EC%84%B8%EC%85%98Session](https://velog.io/@damiano1027/CS-%EC%BF%A0%ED%82%A4Cookie%EC%99%80-%EC%84%B8%EC%85%98Session),
+[https://velog.io/@makeitcloud/%EB%9E%80-Stateless-Stateful-%EC%9D%B4%EB%9E%80](https://velog.io/@makeitcloud/%EB%9E%80-Stateless-Stateful-%EC%9D%B4%EB%9E%80),
+[https://velog.io/@damiano1027/CS-%EC%BF%A0%ED%82%A4Cookie%EC%99%80-%EC%84%B8%EC%85%98Session](https://velog.io/@damiano1027/CS-%EC%BF%A0%ED%82%A4Cookie%EC%99%80-%EC%84%B8%EC%85%98Session),
