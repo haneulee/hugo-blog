@@ -31,16 +31,16 @@ draft: false
 
 <!--toc-->
 
-{{< adsense >}}
-
 # Jest
 
 ![](https://cdn.jsdelivr.net/gh/haneulee/haneulee.github.io/img/post/unittest/img-jest.png)
 
+{{< adsense >}}
+
 ## Jest 란 ? 🤔
 
 {{< hl-text yellow >}}
-Jest는 **Facebook**에서 개발한 JavaScript 테스팅 프레임워크이다.
+Jest는 Facebook에서 개발한 JavaScript 테스팅 프레임워크이다.
 Babel , TypeScript , Node , React , Angular , Vue 등을 사용하는 프로젝트에서 사용할 수 있다.
 Test runner와 Test Mathcher, Test Mock 프레임워크까지 제공하여 다른 유닛 테스트 프레임워크보다 편하다.
 {{< /hl-text >}}
