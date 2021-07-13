@@ -35,8 +35,6 @@ draft: false
 
 ![](https://cdn.jsdelivr.net/gh/haneulee/haneulee.github.io/img/post/unittest/img-jest.png)
 
-{{< adsense >}}
-
 ## Jest 란 ? 🤔
 
 {{< hl-text yellow >}}
@@ -66,6 +64,8 @@ Test runner와 Test Mathcher, Test Mock 프레임워크까지 제공하여 다�
 yarn add --dev jest
 npm install --save-dev jest
 ```
+
+{{< adsense >}}
 
 ## Jest 설정
 
