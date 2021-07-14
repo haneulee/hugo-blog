@@ -1,5 +1,5 @@
 ---
-title: "Jest 유닛 테스트 - 테스트 작성하기"
+title: "NestJS 에서 UNIT TEST 🏃🏻‍♀️"
 date: 2021-07-12T10:30:49+09:00
 categories:
   - development
@@ -35,7 +35,7 @@ draft: false
 
 ![](https://cdn.jsdelivr.net/gh/haneulee/haneulee.github.io/img/post/unittest/img-jest.png)
 
-## Jest 테스트 작성하기
+## NestJS 에서 UNIT TEST 🏃🏻‍♀️
 
 ### jwt.service.spec.ts
 
