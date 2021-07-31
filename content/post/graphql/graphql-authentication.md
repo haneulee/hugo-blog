@@ -1,23 +1,23 @@
 ---
 title: "Apollo에서 Authentication 인증하기 💫"
 date: 2021-07-31T13:57:53+09:00
-categories: 
-- development
-tags: 
-- development
-- front-end
-- @apollo/client
-- apollo
-- graphql
-- Authentication
-- 인증
-- 토큰
-- 로그인
-- login
-- jwt
-keywords: 
-- development
-- front-end
+categories:
+  - development
+tags:
+  - development
+  - front-end
+  - apollo/client
+  - apollo
+  - graphql
+  - Authentication
+  - 인증
+  - 토큰
+  - 로그인
+  - login
+  - jwt
+keywords:
+  - development
+  - front-end
 cover: ""
 thumbnailImagePosition: left
 thumbnailImage: "https://cdn.jsdelivr.net/gh/haneulee/haneulee.github.io/img/post/graphql/apollo-graphql.png"
