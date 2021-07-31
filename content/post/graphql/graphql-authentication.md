@@ -89,7 +89,7 @@ export const client = new ApolloClient({
 });
 ```
 
-위처럼 authLink에 setContext를 넘겨줘서 기존의 httpLink과 연결시켜주면 됩니다.  
+위처럼 [authLink](https://www.apollographql.com/docs/react/networking/authentication/)에 setContext를 넘겨줘서 기존의 httpLink과 연결시켜주면 됩니다.  
 apollo client에서 Context Link를 사용합니다.
 
 위 코드와 같이 설정을 해주면 이제 request header에는 x-jwt라는 키값에 인증 토큰이 들어가게 되고,  
