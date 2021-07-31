@@ -96,6 +96,8 @@ apollo client에서 Context Link를 사용합니다.
 서버에서는 위 토큰을 받아서 유저 정보를 파악할 수 있게 됩니다.  
 그래서 Role 기반 권한부여를 구현할 수 있게 됩니다.
 
+{{< adsense >}}
+
 ## 팟캐스트 & 에피소드 렌더링
 
 apollo client의 useQuery 훅을 이용하면 쉽게 구현이 가능합니다.  
