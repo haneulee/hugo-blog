@@ -3,6 +3,8 @@ title: "Jest Components Test 제스트 컴포넌트 테스트 🔥"
 date: 2021-08-07T02:54:15+09:00
 categories:
   - development
+tags:
+  - development
   - front-end
   - unittest
   - jest
@@ -15,9 +17,6 @@ categories:
   - TDD
   - 페이스북
   - 단위테스트
-tags:
-  - development
-  - front-end
 keywords:
   - development
   - front-end
