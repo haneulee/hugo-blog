@@ -114,5 +114,5 @@ thisArg 매개변수가 map에 전달된 경우 callback 함수의 this값으로
 ```
 
 참고 :
-[스파르타코딩클럽](https://spartacodingclub.kr/)
+[스파르타 코딩클럽](https://spartacodingclub.kr/)
 [Javascript MDN](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Grammar_and_types)
