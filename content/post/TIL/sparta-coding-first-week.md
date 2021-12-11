@@ -105,7 +105,7 @@ thisArg 매개변수가 map에 전달된 경우 callback 함수의 this값으로
 
 
 
-## TIL
+## TIL ✅
 
 전반적으로 자바스크립트 기초에 대한 학습이었고, 개인적으로는 skip 해도 될만한 정도의 수준이었다.
 다음 react native 학습을 기대해야겠다. 👏
