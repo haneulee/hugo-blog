@@ -3,6 +3,7 @@ title: "TIL📚 앱개발 스터디 - 1week"
 date: 2021-12-11T10:46:28+09:00
 categories:
   - development
+  - react native
 tags:
   - development
   - front-end
