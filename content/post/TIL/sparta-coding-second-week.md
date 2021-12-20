@@ -56,6 +56,9 @@ expo start // 실행
 ```
 
 ![](https://cdn.jsdelivr.net/gh/haneulee/haneulee.github.io/img/post/til/expo-install-1.png)
+
+---
+
 ![](https://cdn.jsdelivr.net/gh/haneulee/haneulee.github.io/img/post/til/expo-install-2.png)
 
 ## React Native 🤔
@@ -245,10 +248,7 @@ react native 로 실제 메인 페이지를 만드는 작업을 진행
 기본적인 컴포넌트들 사용 연습 및 테스트함 !
 라우팅을 사용해 다양한 페이지 레이아웃 구성을 해봐야 할 것 같다.
 
-```
-
 참고 :
-[스파르타 코딩클럽](https://spartacodingclub.kr/)
-[React Naitve](https://reactnative.dev/)
+[스파르타 코딩클럽](https://spartacodingclub.kr/),
+[React Naitve](https://reactnative.dev/),
 [RN vs Native vs Flutter 비교](https://yozm.wishket.com/magazine/detail/567/)
-```

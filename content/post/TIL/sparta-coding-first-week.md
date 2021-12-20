@@ -104,16 +104,13 @@ callback 함수는 호출될 때 대상 요소의 값, 그 요소의 인덱스, 
 
 thisArg 매개변수가 map에 전달된 경우 callback 함수의 this값으로 사용됩니다. 그 외의 경우 undefined값이 this 값으로 사용됩니다. callback 함수에서 최종적으로 볼 수 있는 this 값은  함수 내 this를 정하는 일반적인 규칙에 따라 결정됩니다.
 
-
+```
 
 ## TIL ✅
 
 전반적으로 자바스크립트 기초에 대한 학습이었고, 개인적으로는 skip 해도 될만한 정도의 수준이었다.
 다음 react native 학습을 기대해야겠다. 👏
 
-
-```
-
 참고 :
-[스파르타 코딩클럽](https://spartacodingclub.kr/)
+[스파르타 코딩클럽](https://spartacodingclub.kr/),
 [Javascript MDN](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Grammar_and_types)
