@@ -1,6 +1,6 @@
 # Hugo Blog 🔥
 
-[My Blog 👉](haneulee.github.io)
+[My Blog 👉](http://haneulee.github.io)
 
 ---
 
