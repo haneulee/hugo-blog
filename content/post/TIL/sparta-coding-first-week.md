@@ -1,5 +1,5 @@
 ---
-title: "TIL📚 앱개발 스터디 - 1week"
+title: "TIL📚 앱개발 스터디 - 1 week"
 date: 2021-12-11T10:46:28+09:00
 categories:
   - development
@@ -29,7 +29,7 @@ draft: false
 
 {{< adsense >}}
 
-# TIL📚 앱개발 스터디 - 1week
+# TIL📚 앱개발 스터디 - 1 week
 
 ![](https://cdn.jsdelivr.net/gh/haneulee/haneulee.github.io/img/post/til/til.png)
 
