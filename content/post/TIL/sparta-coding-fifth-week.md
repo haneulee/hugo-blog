@@ -48,7 +48,7 @@ draft: false
 
 ## 프로젝트 녹화 영상
 
-![https://cdn.jsdelivr.net/gh/haneulee/haneulee.github.io/img/post/til/honeytip-video.gif](https://cdn.jsdelivr.net/gh/haneulee/haneulee.github.io/img/post/til/honeytip-video.gif)
+<img src="https://cdn.jsdelivr.net/gh/haneulee/haneulee.github.io/img/post/til/honeytip-video.gif" alt="drawing" width="200"/>
 
 ## 취지 & 설명
 
