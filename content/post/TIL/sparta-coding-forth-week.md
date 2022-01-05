@@ -18,6 +18,10 @@ tags:
   - expo
   - ios
   - app
+  - firebase
+  - 파이어베이스
+  - storage
+  - database
 keywords:
   - development
   - front-end
