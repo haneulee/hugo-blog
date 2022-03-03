@@ -2,36 +2,34 @@
 title: "TailwindCSS 테일윈드 👩🏻‍🎨"
 date: 2022-03-02T10:58:34+01:00
 categories:
-
-- development
-- react native
-  tags:
-- development
-- front-end
-- react-native
-- javascript
-- til
-- sparta
-- coding
-- 스파르타코딩
-- react native
-- android
-- expo
-- ios
-- app
-  keywords:
-- development
-- front-end
-  cover: ""
-  thumbnailImagePosition: left
-  thumbnailImage: https://cdn.jsdelivr.net/gh/haneulee/haneulee.github.io/img/post/til/til.png
+  - development
+  - react native
+tags:
+  - development
+  - front-end
+  - react-native
+  - javascript
+  - til
+  - sparta
+  - coding
+  - 스파르타코딩
+  - react native
+  - android
+  - expo
+  - ios
+  - app
+keywords:
+  - development
+  - front-end
+cover: ""
+thumbnailImagePosition: left
+thumbnailImage: https://cdn.jsdelivr.net/gh/haneulee/haneulee.github.io/img/post/til/til.png
 
 # coverImage: //https://cdn.jsdelivr.net/gh/haneulee/haneulee.github.io/img/post/hugo/github-site.png
 
 metaAlignment: center
 coverMeta: out
 draft: true
-
 ---
 
 <!--toc-->
