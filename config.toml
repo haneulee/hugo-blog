@@ -34,7 +34,7 @@ canonifyurls = true
   name = "Haneul Lee"
   bio = "Devlog"
   job = "Front-end Developer"
-  location = "Korea"
+  location = "Switzerland"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
   # gravatarEmail = "lovesky4294@gmail.com"
   # Your profile picture
@@ -96,7 +96,7 @@ canonifyurls = true
   identifier = "resume"
   name = "Resume"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-file\"></i>"
-  url = "https://blog.haneul-lee.com/resume"
+  url = "https://blog.haneul-lee.com/resume/"
 
 [[menu.links]]
   weight = 3
