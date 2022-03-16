@@ -26,7 +26,7 @@ keywords:
 cover: ""
 thumbnailImagePosition: right
 thumbnailImage: https://cdn.jsdelivr.net/gh/haneulee/haneulee.github.io/img/post/blog/hostinger-3.png
-# coverImage: //https://cdn.jsdelivr.net/gh/haneulee/haneulee.github.io/img/post/hugo/github-site.png
+coverImage: https://cdn.jsdelivr.net/gh/haneulee/haneulee.github.io/img/post/blog/hostinger-3.png
 metaAlignment: center
 coverMeta: out
 draft: false

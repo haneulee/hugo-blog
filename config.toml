@@ -89,7 +89,7 @@ canonifyurls = true
   identifier = "website"
   name = "Website"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-window-maximize\"></i>"
-  url = "https://www.haneul-lee.com"
+  url = "haneul-lee.com"
 
 [[menu.links]]
   weight = 2
