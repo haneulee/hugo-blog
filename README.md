@@ -23,3 +23,9 @@ hugo new post/[폴더]/[파일이름].md
 ## hugo theme/public 서브모듈 싱크
 
 git submodule update --init --recursive
+
+## config.toml 변경
+
+config.toml 수정
+hugo -D
+./deploy.sh
