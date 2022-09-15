@@ -40,6 +40,24 @@ canonifyurls = true
     ordered = false
     startLevel = 1
 
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe= true
+
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineAnchors = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "monokai"
+    tabWidth = 4
+
+
 # ------
 # Author
 # ------
@@ -409,3 +427,4 @@ canonifyurls = true
   # Customize copyright value "© 2017 <CUSTOMIZATION>. All Rights Reserved"
     [params.footer]
      copyright = "<a href=\"https://github.com/haneulee\">Haneul Lee</a>"
+  
