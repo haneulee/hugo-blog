@@ -17,7 +17,12 @@
           {{ end }}
           <div class="post-content markdown" itemprop="articleBody">
             <div class="main-content-wrap">
-              {{ (replaceRE "<!--\\s*[t|T][o|O][c|C]\\s*-->" (printf "<h1 id=\"table-of-contents\">%s</h1>%s" (i18n "post.toc") .TableOfContents) .Content) | safeHTML }}
+              {{ $tableContent := (printf "<h1 id=\"table-of-contents\">%s</h1>%s" (i18n "post.toc") .TableOfContents)}}
+              {{ with .Content }}
+                {{ $first := (replaceRE "<!--\\s*[t|T][o|O][c|C]\\s*-->" $tableContent .) | safeHTML }}
+                {{ $second := (replaceRE "<!--adsense-->" (partial "adsense.html" .) $first) | safeHTML }}
+                {{ $second | safeHTML}}
+              {{ end }}
               {{ partial "post/gallery.html" . }}
             </div>
           </div>

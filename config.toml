@@ -15,7 +15,7 @@
 baseURL = "https://blog.haneul-lee.com/"
 languageCode = "ko-kr"
 defaultContentLanguage = "en-us"
-title = "Haneul Devlog"
+title = "Haneul Devlog 개발 블로그 📚"
 theme = "tranquilpeak"
 # disqusShortname = "haneulee-github-io"
 googleAnalytics = "G-BHPHWPTLMZ"
@@ -31,8 +31,8 @@ canonifyurls = true
   archive = "archives"
 
 [author]
-  name = "Haneul Lee"
-  bio = "Devlog"
+  name = "Haneul Devlog"
+  bio = "안녕하세요 프론트엔드 개발자 이하늘입니다. 😎<br>이 블로그는 개발 공부를 기록하기 위해 만들었습니다. <br><br>Hello, I'm Haneul Lee, a front-end developer. <br>This blog is created to record software development studies."
   job = "Front-end Developer"
   location = "Switzerland"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
@@ -141,7 +141,7 @@ canonifyurls = true
   # If false it will flat categories.
   hierarchicalCategories = true
 
-  description = "devlog"
+  description = "안녕하세요 프론트엔드 개발자 이하늘입니다.😎 이 블로그는 개발 공부를 기록하기 위해 만들었습니다. Hello, I'm Lee Ha-neul, a front-end developer. This blog was created to record software development studies."
 
   # Customization
   # Define the behavior of the sidebar
