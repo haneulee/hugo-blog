@@ -1,18 +1,18 @@
 ---
 title: "리액트 절대 경로 설정하기"
 date: 2021-05-18T12:26:22+09:00
-categories: 
-- development
-- react
-tags: 
-- development
-- front-end
-- react
-- 리액트
-- 절대경로
-keywords: 
-- development
-- front-end
+categories:
+  - development
+  - react
+tags:
+  - development
+  - front-end
+  - react
+  - 리액트
+  - 절대경로
+keywords:
+  - development
+  - front-end
 cover: ""
 draft: false
 thumbnailImage: ""
@@ -35,8 +35,7 @@ Web을 개발하다보면 폴더와 파일의 depth가 깊어지는 경우가 �
 
 방법은 아래와 같다.
 
-{{< adsense >}}
-
+<!--adsense-->
 
 ## **| Linux, Mac 에서 설정하기**
 
@@ -66,5 +65,4 @@ yarn add cross-env
 
 ## **| 기타**
 
-처음에 NODE\_PATH를 설정할 때 src로 설정했더니 빌드시에 경로를 제대로 못 잡아서 src/로 잡아주었더니 해결되었다.
-
+처음에 NODE_PATH를 설정할 때 src로 설정했더니 빌드시에 경로를 제대로 못 잡아서 src/로 잡아주었더니 해결되었다.

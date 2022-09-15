@@ -26,7 +26,7 @@ draft: false
 
 <!--toc-->
 
-{{< adsense >}}
+<!--adsense-->
 
 # Typeorm
 

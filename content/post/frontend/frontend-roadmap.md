@@ -28,7 +28,7 @@ draft: false
 
 <!--toc-->
 
-{{< adsense >}}
+<!--adsense-->
 
 # Frontend Roadmap 프론트엔드 로드맵 🚀
 

@@ -1,17 +1,17 @@
 ---
 title: "Git Profile 꾸미기 👩🏻‍💻"
 date: 2021-05-18T16:10:04+09:00
-categories: 
-- development
-- git
-tags: 
-- development
-- front-end
-- git
-- profile
-keywords: 
-- development
-- front-end
+categories:
+  - development
+  - git
+tags:
+  - development
+  - front-end
+  - git
+  - profile
+keywords:
+  - development
+  - front-end
 cover: ""
 draft: false
 thumbnailImagePosition: left
@@ -25,12 +25,14 @@ coverMeta: out
 
 # Git Profile 꾸미기
 
-먼저 아래 그림과 같이 git repository에서 나의 id와 똑같은 이름으로 새로운 repository를 생성한다. 
-*** add READ.me 를 클릭하기, public으로 !! ***
+먼저 아래 그림과 같이 git repository에서 나의 id와 똑같은 이름으로 새로운 repository를 생성한다.
+**_ add READ.me 를 클릭하기, public으로 !! _**
 ![]()
 
-생성이 되면 해당 레파지토리에 read.me에는 다음과 같이 작성되어 있을 것이다. 
-{{< adsense >}}
+생성이 되면 해당 레파지토리에 read.me에는 다음과 같이 작성되어 있을 것이다.
+
+<!--adsense-->
+
 ```
 ### Hi there 👋
 
@@ -52,23 +54,26 @@ Here are some ideas to get you started:
 ```
 
 ## 뱃지 만들기
-아래 사이트에서 뱃지 이미지를 만들 수 있다. 
+
+아래 사이트에서 뱃지 이미지를 만들 수 있다.
 
 [https://shields.io/category/build](https://shields.io/category/build)
+
 ```
 https://img.shields.io/static/v1?label=<LABEL>&message=<MESSAGE>&color=<COLOR>
 ```
 
 ## 아이콘 만들기
 
-아래 사이트에서 아이콘을 고르고 
+아래 사이트에서 아이콘을 고르고
 [https://simpleicons.org/](https://simpleicons.org/)
+
 ```
 https://img.shields.io/badge/뱃지에쓸글씨-색상코드?style=flat-square&logo=쓰고싶은 아이콘이름&logoColor=white&link=너의링크
 ```
 
-
 ## 화려한 배경 만들기
+
 [capsule-render](https://github.com/kyechan99/capsule-render)
 
 - 원하는 색상의 header, footer 추가하기
@@ -78,4 +83,3 @@ https://img.shields.io/badge/뱃지에쓸글씨-색상코드?style=flat-square&l
 - [github 조회수](https://hits.seeyoufarm.com/)
 - [github status](https://github.com/anuraghazra/github-readme-stats)
 - [daily coding time](https://github.com/techinpark/productive-box)
-

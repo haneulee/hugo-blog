@@ -1,23 +1,23 @@
 ---
 title: "Frontend SonarQube 적용"
 date: 2021-05-20T10:46:41+09:00
-categories: 
-- development
-- sonarqube
-tags: 
-- development
-- front-end
-- sonarqube
-- 소나큐브
-- 프론트엔드
-- 테스트코드
-- 정적분석
-- 테스트
-- sonarlint
-- sonarscanner
-keywords: 
-- development
-- front-end
+categories:
+  - development
+  - sonarqube
+tags:
+  - development
+  - front-end
+  - sonarqube
+  - 소나큐브
+  - 프론트엔드
+  - 테스트코드
+  - 정적분석
+  - 테스트
+  - sonarlint
+  - sonarscanner
+keywords:
+  - development
+  - front-end
 cover: ""
 draft: false
 thumbnailImagePosition: left
@@ -26,36 +26,34 @@ thumbnailImage: "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=h
 metaAlignment: center
 coverMeta: out
 ---
+
 <!--toc-->
 
 # Frontend SonarQube 적용
 
-이번에 회사에서 개발 코드 정적 분석 툴인 
+이번에 회사에서 개발 코드 정적 분석 툴인
 
-소나큐브 (sonarqube)를 도입하기로 해서 사전 검토에 들어갔다. 
+소나큐브 (sonarqube)를 도입하기로 해서 사전 검토에 들어갔다.
 
-먼저 현재 개발중인 SKB G2 웹앱 코드를 소나큐브로 돌려보기로 했다. 
+먼저 현재 개발중인 SKB G2 웹앱 코드를 소나큐브로 돌려보기로 했다.
 
 해당 웹앱 코드는 vue 프레임워크를 사용중
 
-{{< adsense >}}
+<!--adsense-->
 
-
------------------------
+---
 
 ## 1\. 소나큐브 서버 띄우기
 
+소나큐브는 아래 사이트에서 다운로드 받고,
 
-소나큐브는 아래 사이트에서 다운로드 받고, 
-
-소나스캐너는 맥을 이용중이므로 간단하게 brew로 설치해준다. 
+소나스캐너는 맥을 이용중이므로 간단하게 brew로 설치해준다.
 
 ```
 brew install sonar-scanner
 ```
 
 [www.sonarqube.org/downloads/](https://www.sonarqube.org/downloads/)
-
 
 사이트에서 무료버전인 community 버전을 다운로드 받고,  zip파일 압축을 풀어준다.
 
@@ -67,25 +65,25 @@ brew install sonar-scanner
 
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FzdbiF%2FbtqSQ6hlHpH%2FoUod8lJky0Ahs20mfkWbf1%2Fimg.png)
 
-sonarqube is up이 뜬다면 성공! 
+sonarqube is up이 뜬다면 성공!
 
-sonarqube server를 띄워주는데 default url은 http://localhost:9000 이다. 
+sonarqube server를 띄워주는데 default url은 http://localhost:9000 이다.
 
-브라우저에 해당 주소를 입력하면 로그인 창이 나온다. 
+브라우저에 해당 주소를 입력하면 로그인 창이 나온다.
 
-초기 id, password는 모두 admin 이다. 
+초기 id, password는 모두 admin 이다.
 
-로그인을 하면 sonarqube 대시보드 창으로 넘어간다. 
+로그인을 하면 sonarqube 대시보드 창으로 넘어간다.
 
-프로젝트 탭을 눌러 메뉴로 들어가면 
+프로젝트 탭을 눌러 메뉴로 들어가면
 
-새로운 프로젝트를 생성한다. 
+새로운 프로젝트를 생성한다.
 
-프로젝트 키를 입력하고, 
+프로젝트 키를 입력하고,
 
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FBSDC6%2FbtqSZyi71Ry%2FSCTQQganWJbqNVdPv5sfuk%2Fimg.png)
 
-토큰 이름을 입력하고 (간단하게 나는 token 으로) generate 버튼을 누르면 토큰 키가 생성된다. 
+토큰 이름을 입력하고 (간단하게 나는 token 으로) generate 버튼을 누르면 토큰 키가 생성된다.
 
 키는 저장할 필요없다. 다음 단계에서 copy하도록 되어 있음
 
@@ -99,14 +97,15 @@ sonarqube server를 띄워주는데 default url은 http://localhost:9000 이다.
 
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fmy1O7%2FbtqSXkMuhBx%2F4oo8oRSuvqwjQeLAQXRPPk%2Fimg.png)
 
--------------------
+---
+
 ## 2\. 소나스캐너로 코드 검사 하기
 
-위에서 복사했던 소나스캐너 명령어를 검사할 프로젝트 root 위치에서 실행해준다. 
+위에서 복사했던 소나스캐너 명령어를 검사할 프로젝트 root 위치에서 실행해준다.
 
-여기서 나는 git scm 에러가 발생했다. 
+여기서 나는 git scm 에러가 발생했다.
 
-그래서 '\-Dsonar.scm.provider=git' 을 명령어 뒤에 추가해줬다. 
+그래서 '\-Dsonar.scm.provider=git' 을 명령어 뒤에 추가해줬다.
 
 ```
 sonar-scanner \
@@ -117,7 +116,7 @@ sonar-scanner \
   -Dsonar.scm.provider=git
 ```
 
-해당 명령어를 실행하면 아래와 같이 모든 코드가 정적분석 검사되고, 
+해당 명령어를 실행하면 아래와 같이 모든 코드가 정적분석 검사되고,
 
 SUCCESS 가 뜨는지 확인!!
 
@@ -221,24 +220,22 @@ INFO: Final Memory: 13M/57M
 INFO: ------------------------------------------------------------------------
 ```
 
-검사가 다 완료된 후에는 
+검사가 다 완료된 후에는
 
-**'http://localhost:9000/dashboard?id=test\_automation'** 에 접속하여 분석 결과를 확인하면 된다. 
-
+**'http://localhost:9000/dashboard?id=test_automation'** 에 접속하여 분석 결과를 확인하면 된다.
 
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F0ULxl%2FbtqS3aaXFqL%2Fgr6OAyBjbKpIbwlaVjtPU0%2Fimg.png)
 
-프론트엔드 코드는 보통 eslint + prettier 조합으로 코드 컨벤션 및 문법 체크 등을 한다. 
+프론트엔드 코드는 보통 eslint + prettier 조합으로 코드 컨벤션 및 문법 체크 등을 한다.
 
-여기에 husky + lint-staged 조합을 사용하면 내가 수정한 코드를 git에 커밋하기 전에 체크하고, 통과 안되면 커밋이 불가능하게 된다. 
+여기에 husky + lint-staged 조합을 사용하면 내가 수정한 코드를 git에 커밋하기 전에 체크하고, 통과 안되면 커밋이 불가능하게 된다.
 
-소나큐브에서는 보안, 코드 중복, 코드 스멜 등을 검사할 수 있으니 추가적으로 검사하는 것도 좋을 듯 하다. 
+소나큐브에서는 보안, 코드 중복, 코드 스멜 등을 검사할 수 있으니 추가적으로 검사하는 것도 좋을 듯 하다.
 
-만약에 정적분석 검사를 자동화하고 싶으면 젠킨스와 같이 사용하여 빌드 배포시 마다 소나큐브를 돌리게 할 수도 있다. 
+만약에 정적분석 검사를 자동화하고 싶으면 젠킨스와 같이 사용하여 빌드 배포시 마다 소나큐브를 돌리게 할 수도 있다.
 
-테스트 코드를 작성하거나 typescript를 사용하는 것도 도움이 될 것 같다. 
+테스트 코드를 작성하거나 typescript를 사용하는 것도 도움이 될 것 같다.
 
 여유가 되면 나중에 하는 것으로 ㅜ
 
 소나큐브 삽질기 끝!!
-

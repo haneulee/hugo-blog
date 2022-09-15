@@ -34,7 +34,7 @@ draft: true
 
 <!--toc-->
 
-{{< adsense >}}
+<!--adsense-->
 
 # TailwindCSS 테일윈드 👩🏻‍🎨
 

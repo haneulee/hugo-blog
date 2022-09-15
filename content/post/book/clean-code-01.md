@@ -31,7 +31,7 @@ draft: false
 
 <!--toc-->
 
-{{< adsense >}}
+<!--adsense-->
 
 # [노개북] Today I Read - 클린코드 - Day 1 📕
 

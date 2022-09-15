@@ -20,4 +20,4 @@ draft: false
 
 <!--toc-->
 
-{{< adsense >}}
+<!--adsense-->

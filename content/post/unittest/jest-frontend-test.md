@@ -83,7 +83,7 @@ afterAll(() => {
 });
 ```
 
-{{< adsense >}}
+<!--adsense-->
 
 ---
 

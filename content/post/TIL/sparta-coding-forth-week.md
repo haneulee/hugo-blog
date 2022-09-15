@@ -36,7 +36,7 @@ draft: false
 
 <!--toc-->
 
-{{< adsense >}}
+<!--adsense-->
 
 # TIL📚 앱개발 스터디 - 4 week
 

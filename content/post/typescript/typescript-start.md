@@ -25,7 +25,7 @@ draft: false
 
 ![](https://cdn.jsdelivr.net/gh/haneulee/haneulee.github.io/img/post/typescript/img-1.png)
 
-{{< adsense >}}
+<!--adsense-->
 
 # Typescript
 

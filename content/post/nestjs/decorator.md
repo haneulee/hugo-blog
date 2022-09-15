@@ -89,7 +89,7 @@ export class AuthModule {}
 위와 같이 auth 모듈 설정을 해주면, 더이상 UseGuard는 사용하지 않으셔도 됩니다  
 대신에 Auth module을 App 모듈에서 꼭 import 해주셔야 합니다.
 
-{{< adsense >}}
+<!--adsense-->
 
 ## AuthGuard
 

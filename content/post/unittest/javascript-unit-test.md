@@ -1,27 +1,27 @@
 ---
 title: "Javascript 테스트"
 date: 2021-05-20T11:07:12+09:00
-categories: 
-- development
-- unittest
-tags: 
-- development
-- front-end
-- unittest
-- javascript
-- testrunner
-- mocha
-- jasmine
-- karma
-- jest
-- ava
-- qunit
-- 유닛테스트
-- 테스트코드
-- 테스트프레임워크
-keywords: 
-- development
-- front-end
+categories:
+  - development
+  - unittest
+tags:
+  - development
+  - front-end
+  - unittest
+  - javascript
+  - testrunner
+  - mocha
+  - jasmine
+  - karma
+  - jest
+  - ava
+  - qunit
+  - 유닛테스트
+  - 테스트코드
+  - 테스트프레임워크
+keywords:
+  - development
+  - front-end
 cover: ""
 draft: false
 thumbnailImagePosition: left
@@ -32,7 +32,6 @@ coverMeta: out
 ---
 
 <!--toc-->
-
 
 <p>
   <br/>
@@ -95,8 +94,7 @@ coverMeta: out
 
 ![](https://cdn.jsdelivr.net/gh/haneulee/haneulee.github.io/img/post/unittest/img-1.png)
 
-
-{{< adsense >}}
+<!--adsense-->
 
 <p class="gb gc eg ge b gf kc gh gi gj kd gl gm gn ke gp gq gr kf gt gu gv kg gx gy gz jz ka kb fc" style="list-style-type: disc;">
   <br/>
@@ -201,7 +199,6 @@ coverMeta: out
 <p class="gb gc eg ge b gf kc gh gi gj kd gl gm gn ke gp gq gr kf gt gu gv kg gx gy gz jz ka kb fc" style="list-style-type: disc;">index.js → jasmine.css 와 jasmine.js 링크</p>
 <p class="gb gc eg ge b gf kc gh gi gj kd gl gm gn ke gp gq gr kf gt gu gv kg gx gy gz jz ka kb fc" style="list-style-type: disc;">
 
-
 ![](https://cdn.jsdelivr.net/gh/haneulee/haneulee.github.io/img/post/unittest/img-5.png)
 
 </p>
@@ -213,7 +210,6 @@ coverMeta: out
 
 ![](https://cdn.jsdelivr.net/gh/haneulee/haneulee.github.io/img/post/unittest/img-6.png)
 
-
 </p>
 <p class="gb gc eg ge b gf kc gh gi gj kd gl gm gn ke gp gq gr kf gt gu gv kg gx gy gz jz ka kb fc" style="list-style-type: disc;">
   <br/>
@@ -222,7 +218,6 @@ coverMeta: out
 <p class="gb gc eg ge b gf kc gh gi gj kd gl gm gn ke gp gq gr kf gt gu gv kg gx gy gz jz ka kb fc" style="list-style-type: disc;">
 
 ![](https://cdn.jsdelivr.net/gh/haneulee/haneulee.github.io/img/post/unittest/img-7.png)
-
 
 </p>
 <p class="gb gc eg ge b gf kc gh gi gj kd gl gm gn ke gp gq gr kf gt gu gv kg gx gy gz jz ka kb fc" style="list-style-type: disc;">
@@ -266,7 +261,6 @@ coverMeta: out
 <p>test.vue → 테스트 코드 </p>
 <p>
 
-
 ![](https://cdn.jsdelivr.net/gh/haneulee/haneulee.github.io/img/post/unittest/img-9.png)
 
 </p>
@@ -276,7 +270,6 @@ coverMeta: out
 <p>홈화면</p>
 <p>
 
-
 ![](https://cdn.jsdelivr.net/gh/haneulee/haneulee.github.io/img/post/unittest/img-10.png)
 
 </p>
@@ -284,7 +277,6 @@ coverMeta: out
 <p>
 
 ![](https://cdn.jsdelivr.net/gh/haneulee/haneulee.github.io/img/post/unittest/img-11.png)
-
 
 </p>
 <p>
@@ -343,4 +335,3 @@ coverMeta: out
 <p class="gb gc eg ge b gf kc gh gi gj kd gl gm gn ke gp gq gr kf gt gu gv kg gx gy gz jz ka kb fc" style="list-style-type: disc;">
   <br/>
 </p>
-

@@ -1,21 +1,21 @@
 ---
 title: "Git Feature 브랜치 생성 & push"
 date: 2021-05-18T16:01:06+09:00
-categories: 
-- development
-- git
-tags: 
-- development
-- front-end
-- git
-- feature
-- branch
-- 피처
-- 브랜치
-- 깃
-keywords: 
-- development
-- front-end
+categories:
+  - development
+  - git
+tags:
+  - development
+  - front-end
+  - git
+  - feature
+  - branch
+  - 피처
+  - 브랜치
+  - 깃
+keywords:
+  - development
+  - front-end
 cover: ""
 draft: false
 thumbnailImage: ""
@@ -24,16 +24,17 @@ metaAlignment: center
 coverMeta: out
 ---
 
-
 # branch 생성
+
 - 아래 명령어로 새로운 브랜치 생성
-{{< adsense >}}
+<!--adsense-->
 
 ```
 $ git branch <branchName>
 ```
 
 # 생성한 브랜치로 이동
+
 - 생성한 브랜치로 체크아웃하기
 
 ```
@@ -45,7 +46,6 @@ $ git checkout <branchName>
 $ git checkout -b <branchName>
 ```
 
-
 # 원격 저장소에 push 하기
 
 - 로컬에서만 생성한 branch를 upstream branch로 만든다.
@@ -53,4 +53,3 @@ $ git checkout -b <branchName>
 ```
 $ git push --set-upstream origin <branchName>
 ```
-

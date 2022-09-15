@@ -65,7 +65,7 @@ yarn add --dev jest
 npm install --save-dev jest
 ```
 
-{{< adsense >}}
+<!--adsense-->
 
 ## Jest 설정
 

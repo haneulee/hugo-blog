@@ -45,7 +45,7 @@ if (typeof window === 'object') {
   }
 ```
 
-{{< adsense >}}
+<!--adsense-->
 
 ### 두번째
 

@@ -117,7 +117,7 @@ export const LoggedOutRouter = () => {
 [BrowserRoute](https://reactrouter.com/web/api/BrowserRouter)  
 [HashRouter](https://reactrouter.com/web/api/HashRouter)
 
-{{< adsense >}}
+<!--adsense-->
 
 ## [reactive variables](https://www.apollographql.com/docs/react/local-state/reactive-variables/) - 로그인 토큰 및 로그인 상태
 

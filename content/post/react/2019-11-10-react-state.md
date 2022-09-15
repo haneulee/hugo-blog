@@ -14,8 +14,7 @@ tags: [javascript, react, state, array, 리액트]
 
 - 기존 배열을 그대로 두고 새 배열을 생성한다.
 
-
-{{< adsense >}}
+<!--adsense-->
 
 ## 2. Immutability Helper
 
@@ -26,6 +25,7 @@ tags: [javascript, react, state, array, 리액트]
 - import update from 'react-addons-update'
 
 - 원소 추가
+
 ```
 this.setState({
     list: update(
@@ -36,11 +36,13 @@ this.setState({
     );
 });
 ```
+
 - (줄 3) 첫 번째 인수 : 처리해야할 객체나 배열
 - (줄 4~6) 두 번째 인수 : 처리명령을 지니고 있는 객체
 - (줄 5) push를 통하여 list 배열에 newObj, newObj2를 추가
 
 - 원소 제거
+
 ```
 this.setState({
     list: update(
@@ -51,6 +53,7 @@ this.setState({
     );
 });
 ```
+
 - (줄 5) index번째 아이템 부터 시작해서 1개의 데이터를 제거한다는 의미
 
 - 원소 수정
@@ -68,6 +71,7 @@ this.setState({
     );
 });
 ```
+
 - (줄 5~8) index번째 아이템의 field, field2 값을 변경한다.
 
 - 객체를 다룰 때에도 직접 접근하면 안된다.
@@ -85,7 +89,7 @@ let object = {
         }
     }
 }
- 
+
 let changed = update(object, {
     c: {
         f: {
@@ -97,6 +101,7 @@ let changed = update(object, {
 }
 
 ```
+
 - (줄 14~22) change_this_value값이 수정된다.
 
 ## 3. spread 연산자
@@ -124,6 +129,7 @@ module:{
 ```
 
 - spread 연산자를 이용하여 값을 수정
+
 ```
 let object = {
     a: '1',
@@ -137,7 +143,7 @@ let object = {
         }
     }
 }
- 
+
 let changed = {
     ...object,
     b: "hi"
@@ -161,7 +167,7 @@ let object = {
         }
     }
 }
- 
+
 let changed = {
     ...object,
     c: {
@@ -183,6 +189,7 @@ let changed = {
 let array = [1, 2, 3, 4, 5, 6];
 let changed = [ ...array, 7];
 ```
+
 - changed 배열을 출력해보면 [1, 2, 3, 4, 5, 6, 7] 로 출력된다.
 
 - 배열 원소 제거
@@ -195,10 +202,10 @@ let changed = [ ...array.slice(0,2), ...array.slice(3,array.length)];
 - changed 배열을 출력해보면 3이 제거되어 [1, 2, 4, 5, 6] 로 출력된다.
 
 - 배열 원소 수정
+
 ```
 let array = [1, 2, 3, 4, 5, 6];
 let changed = [ ...array.slice(0,2), '수정', ...array.slice(3,array.length-1)];
 ```
+
 - changed 배열을 출력해보면 [1, 2, "수정", 4, 5, 6] 로 출력된다.
-
-

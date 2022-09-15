@@ -28,4 +28,4 @@ draft: false
 
 ---
 
-{{< adsense >}}
+<!--adsense-->

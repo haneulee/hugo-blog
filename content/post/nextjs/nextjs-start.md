@@ -48,7 +48,7 @@ SSR은 화면에서 보여줄 특정 페이지의 View를 서버 단에서 렌�
 
 ![](https://cdn.jsdelivr.net/gh/haneulee/haneulee.github.io/img/post/nextjs/img-2.png)
 
-{{< adsense >}}
+<!--adsense-->
 
 ## Next.js의 렌더링 동작 원리
 

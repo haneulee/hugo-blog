@@ -1,20 +1,20 @@
 ---
 title: "리액트 useState 훅 사용하기"
 date: 2021-05-18T12:30:09+09:00
-categories: 
-- development
-- react
-tags: 
-- development
-- front-end
-keywords: 
-- development
-- front-end
-- react
-- 리액트
-- useState
-- hook
-- 훅
+categories:
+  - development
+  - react
+tags:
+  - development
+  - front-end
+keywords:
+  - development
+  - front-end
+  - react
+  - 리액트
+  - useState
+  - hook
+  - 훅
 cover: ""
 draft: false
 thumbnailImage: ""
@@ -27,7 +27,6 @@ coverMeta: out
 
 ## 배열 state 
 
-
 #### 1\. 추가
 
 ```
@@ -39,7 +38,8 @@ setLanguage([...language, newLanguage]);
 setLanguage(language.concat(newLanguage));
 ```
 
-{{< adsense >}}
+<!--adsense-->
+
 #### 2\. 삭제
 
 ```
@@ -59,4 +59,3 @@ setLanguage(
       )
     );
 ```
-

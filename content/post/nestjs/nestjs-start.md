@@ -1,19 +1,19 @@
 ---
 title: "NestJS 프레임워크"
 date: 2021-05-21T10:23:15+09:00
-categories: 
-- development
-- nestjs
-tags: 
-- development
-- front-end
-- nestjs
-- fullstack
-- nodejs
-- npm
-keywords: 
-- development
-- front-end
+categories:
+  - development
+  - nestjs
+tags:
+  - development
+  - front-end
+  - nestjs
+  - fullstack
+  - nodejs
+  - npm
+keywords:
+  - development
+  - front-end
 cover: ""
 draft: false
 thumbnailImagePosition: left
@@ -26,10 +26,13 @@ coverMeta: out
 <!--toc-->
 
 ![](https://blog.kakaocdn.net/dn/dU9G4a/btqSKMKcVQr/MUn4YGbhr6gae83cSs6LCk/img.png)
+
 ## NestJS:
 
 Nest (NestJS)는 효율적이고 확장 가능한[Node.js](https://nodejs.org/)서버 측 애플리케이션을 구축하기위한 프레임 워크입니다.프로그레시브 JavaScript를 사용하고[TypeScript](http://www.typescriptlang.org/)로 빌드되고 완전히 지원하며 (하지만 여전히 개발자가 순수 JavaScript로 코딩 할 수 있음) OOP (Object Oriented Programming), FP (Functional Programming) 및 FRP (Functional Reactive Programming) 요소를 결합합니다.
-{{< adsense >}}
+
+<!--adsense-->
+
 내부적으로 Nest는[Express](https://expressjs.com/)(기본값)와같은 강력한 HTTP 서버 프레임 워크를 사용하며 선택적으로 [Fastify](https://github.com/fastify/fastify)를 사용하도록 구성 할 수도 있습니다!
 
 Nest는 이러한 일반적인 Node.js 프레임 워크 (Express / Fastify) 위에 추상화 수준을 제공하지만 API를 개발자에게 직접 노출합니다.이를 통해 개발자는 기본 플랫폼에서 사용할 수있는 수많은 타사 모듈을 자유롭게 사용할 수 있습니다.
@@ -58,8 +61,6 @@ npm install --save @nestjs/mongoose mongoose
 npm run start:dev
 
 ```
-
-
 
 ## Database 
 
@@ -128,5 +129,3 @@ nest generate controller blog
 [docs.nestjs.com/](https://docs.nestjs.com/)
 
 [becomereal.tistory.com/56?category=1093528](https://becomereal.tistory.com/56?category=1093528)
-
-

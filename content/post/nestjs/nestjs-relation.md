@@ -100,7 +100,7 @@ podcast에서 episode와 review 1:N 관계 설정이 필요
 
 review, markEpisodeAsPlayed, subscribeToPodcast 구현을 위한 relation
 
-{{< adsense >}}
+<!--adsense-->
 
 ---
 

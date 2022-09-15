@@ -27,7 +27,7 @@ draft: true
 
 <!--toc-->
 
-{{< adsense >}}
+<!--adsense-->
 
 # NextJS 서버 사이드 렌더링 👩🏻‍💻
 

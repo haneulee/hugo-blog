@@ -26,7 +26,7 @@ draft: false
 
 <!--toc-->
 
-{{< adsense >}}
+<!--adsense-->
 
 # React Native UI toolkits 리액트 네이티브 유용한 도구 🍯
 
