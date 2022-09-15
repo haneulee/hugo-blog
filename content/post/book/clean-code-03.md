@@ -22,7 +22,7 @@ keywords:
   - front-end
 cover: ""
 thumbnailImagePosition: left
-thumbnailImage: ""
+thumbnailImage: https://cdn.jsdelivr.net/gh/haneulee/haneulee.github.io/img/post/book/book.png
 coverImage: https://cdn.jsdelivr.net/gh/haneulee/haneulee.github.io/img/post/book/book.png
 metaAlignment: center
 coverMeta: out
