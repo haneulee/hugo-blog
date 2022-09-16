@@ -25,8 +25,9 @@ keywords:
   - front-end
 cover: ""
 thumbnailImagePosition: right
-thumbnailImage: https://cdn.jsdelivr.net/gh/haneulee/haneulee.github.io/img/post/blog/hostinger-3.png
-coverImage: https://cdn.jsdelivr.net/gh/haneulee/haneulee.github.io/img/post/blog/hostinger-3.png
+# thumbnailImage: https://res.cloudinary.com/dtlpko2wf/image/upload/v1663326187/blog/post-2022-03-16-10-22/hostinger-3_dx1ph9.png
+thumbnailImage: https://res.cloudinary.com/dtlpko2wf/image/upload/v1663326187/blog/post-2022-03-16-10-22/hostinger-3_dx1ph9.png
+coverImage: https://res.cloudinary.com/dtlpko2wf/image/upload/v1663326187/blog/post-2022-03-16-10-22/hostinger-3_dx1ph9.png
 metaAlignment: center
 coverMeta: out
 draft: false
@@ -38,7 +39,7 @@ draft: false
 
 # 도메인 구매 후, 깃헙 블로그 연동하기 🏠
 
-![](https://cdn.jsdelivr.net/gh/haneulee/haneulee.github.io/img/post/blog/hostinger-3.png)
+![](https://res.cloudinary.com/dtlpko2wf/image/upload/v1663326187/blog/post-2022-03-16-10-22/hostinger-3_dx1ph9.png)
 
 ## 도메인 구매
 
