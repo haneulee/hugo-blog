@@ -107,7 +107,7 @@ new 메소드를 두 번 호출하여 다른 인스턴스와 동일하게 counte
 counter1과 counter2의 getInstance 메서드에서 반환된 값들은 다른 인스턴스에 대한 참조를 효과적으로 반환했습니다.  
 두 값은 완전히 동일하지 않습니다!
 
-<video src="https://res.cloudinary.com/ddxwdqwkr/video/upload/v1609056519/patterns.dev/jspat-52_zkwyk1.mp4">
+{{< videoPlay src="https://res.cloudinary.com/ddxwdqwkr/video/upload/v1609056519/patterns.dev/jspat-52_zkwyk1.mp4" >}}
 
 Counter 클래스의 인스턴스를 하나만 만들 수 있는지 확인합시다.
 
@@ -202,7 +202,7 @@ Counter 예제를 구현하는 응용 프로그램을 살펴보겠습니다.
 blueButton.js, redButton.js 둘 다 counter.js에서 동일한 인스턴스를 가져옵니다.  
 이 인스턴스는 두 파일 모두에서 Counter로 가져옵니다.
 
-<video src="https://res.cloudinary.com/ddxwdqwkr/video/upload/v1609056519/patterns.dev/jspat-56_wylvcf.mp4">
+{{< videoPlay src="https://res.cloudinary.com/ddxwdqwkr/video/upload/v1609056519/patterns.dev/jspat-56_wylvcf.mp4" >}}
 
 redButton.js 또는 blueButton.js에서 increment메서드를 호출하면 Counter 인스턴스의 counter속성 값이 두 파일 모두에서 업데이트됩니다.  
 빨간색 버튼을 클릭하든 파란색 버튼을 클릭하든 상관없습니다. : 모든 인스턴스에서 동일한 값을 공유합니다.  
@@ -210,7 +210,7 @@ redButton.js 또는 blueButton.js에서 increment메서드를 호출하면 Count
 
 ---
 
-## (단)장점
+## 장점 & 단점
 
 인스턴스화를 한 인스턴스로만 제한하면 잠재적으로 많은 메모리 공간을 절약할 수 있습니다.  
 매번 새 인스턴스에 대한 메모리를 설정하는 대신 애플리케이션 전체에서 참조되는 해당 인스턴스에 대한 메모리만 설정하면 됩니다.  

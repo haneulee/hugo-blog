@@ -51,11 +51,11 @@ canonifyurls = true
     hl_Lines = ""
     lineAnchors = ""
     lineNoStart = 1
-    lineNos = false
+    lineNos = true
     lineNumbersInTable = true
     noClasses = true
-    style = "monokai"
-    tabWidth = 4
+    style = "dracula"
+    tabWidth = 2
 
 
 # ------
