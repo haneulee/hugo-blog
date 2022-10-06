@@ -37,7 +37,7 @@ draft: false
 - bfcache는 인메모리 캐시로, 자바스크립트 힙까지 포함해 페이지 전체를 완전히 캐시로 저장해버리는 것을 의미한다.
 - 전체 페이지가 메모리 안에 있기 때문에, 사용자가 이전페이지로 돌아가고자 했을 때 빠르게 전체 페이지를 보여줄 수 있다.
 
-{{< videoPlay src="https://i.ytimg.com/vi_webp/cuPsdRckkF0/hqdefault.webp" >}}
+{{< videoPlay src="https://www.youtube.com/embed/cuPsdRckkF0" >}}
 
 ## 이슈
 
