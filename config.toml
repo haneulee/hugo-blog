@@ -63,7 +63,7 @@ canonifyurls = true
 # ------
 [author]
   name = "Haneul Devlog"
-  bio = "안녕하세요 프론트엔드 개발자 이하늘입니다. 😎<br> 이 블로그는 개발 공부를 기록하기 위해 만들었습니다. <br><br>Hello, I'm Haneul Lee, a front-end developer. <br>This blog is created to record software development studies."
+  bio = "안녕하세요 프론트엔드 개발자 하늘입니다. 😎<br> 이 블로그는 개발 공부를 기록하기 위해 만들었습니다. <br><br>Hello, I'm Haneul, a front-end developer. <br>This is a software development blog."
   job = "Front-end Developer"
   location = "Switzerland"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
@@ -117,19 +117,19 @@ canonifyurls = true
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-code\"></i>"
   url = "/categories/development"
 
-[[menu.links]]
-  weight = 1
-  identifier = "website"
-  name = "Website"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-window-maximize\"></i>"
-  url = "https://haneul-lee.com"
+# [[menu.links]]
+#   weight = 1
+#   identifier = "website"
+#   name = "Website"
+#   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-window-maximize\"></i>"
+#   url = "https://haneul-lee.com"
 
-[[menu.links]]
-  weight = 2
-  identifier = "resume"
-  name = "Resume"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-file\"></i>"
-  url = "https://blog.haneul-lee.com/resume/"
+# [[menu.links]]
+#   weight = 2
+#   identifier = "resume"
+#   name = "Resume"
+#   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-file\"></i>"
+#   url = "https://blog.haneul-lee.com/resume/"
 
 [[menu.links]]
   weight = 3
